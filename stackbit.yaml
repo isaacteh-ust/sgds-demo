@@ -32,7 +32,7 @@ models:
   About:   
     type: page
     label: About Page
-    file: "/contents/about/content-about.md"
+    file: "contents/about/content-about.md"
     urlPath: "/about/"
     fields:
       - type: string
