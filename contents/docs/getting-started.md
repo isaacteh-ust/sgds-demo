@@ -2,7 +2,7 @@
 title: Getting Started 
 layout: layout-sidenav 
 permalink: /docs/getting-started/ 
-redirect\_from: - /docs/ 
+redirect\_from: /docs/ 
 ---
 
 Overview
