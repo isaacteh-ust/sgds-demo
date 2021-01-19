@@ -32,7 +32,8 @@ models:
   About:   
     type: page
     label: About Page
-    folder: "contents/about/"
+    file: "/contents/about/content-about.md"
+    urlPath: "/about/"
     fields:
       - type: string
         name: title
