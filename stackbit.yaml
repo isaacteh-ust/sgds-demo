@@ -17,6 +17,18 @@ models:
       - type: string
         name: title
         label: Sites Title
+      - type: string
+        name: logo
+        label: Logo
+      - type: string
+        name: sgds-version
+        label: sgds-version
+      - type: string
+        name: report_vulnerability
+        label: Report
+      - type: string
+        name: contact_us
+        label: Contact Us
   About:   
     type: page
     label: About Page
