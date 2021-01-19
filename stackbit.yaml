@@ -11,7 +11,7 @@ models:
   About:   
     type: page
     label: About Page
-    file: "/contents/about/content-about.md"
+    folder: "/contents/about"
     singleInstance: true
     fields:
       - type: string
