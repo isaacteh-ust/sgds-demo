@@ -93,24 +93,3 @@ which would be what `$sgds-font-path` must be set to.
 For more information, see the [sass-loader
 documentation](https://webpack.js.org/loaders/sass-loader/#problems-with-url)
 
-* * * * *
-
-### The following default SGDS variables can be overridden:
-
-### Variable
-
-### Default Value
-### 
-### Type
-### 
-### {% for variable\_name in site.data.initial-variables %}
-### 
-### `{{ variable_name[1].name }}`
-### 
-### {% if variable\_name[1].type == 'colour' %} {% endif %}
-### `{{ variable_name[1].value }}`
-### 
-### [{{ variable\_name[1].type | capitalize
-### }}](/docs/{{%20variable_name[1].type%20}})
-### 
-### {% endfor %}
