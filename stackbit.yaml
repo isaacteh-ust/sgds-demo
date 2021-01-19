@@ -6,7 +6,7 @@ publishDir: _site
 staticDir: assets
 uploadDir: 'assets/img'
 dataDir: '_data'
-pagesDir: ''
+pagesDir: 'contents'
 models:
   article:
     type: page
@@ -28,7 +28,7 @@ models:
   About:   
     type: page
     label: About Page
-    file: "contents/about/content-about.md"
+    file: "about/content-about.md"
     singleInstance: true
     fields:
       - type: string
