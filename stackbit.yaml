@@ -6,12 +6,12 @@ publishDir: _site
 staticDir: assets
 uploadDir: 'assets/img'
 dataDir: '_data'
-pagesDir: 'contents'
+pagesDir: ''
 models:
   About:   
     type: page
     label: About Page
-    folder: "/contents/about"
+    folder: "contents/about"
     singleInstance: true
     fields:
       - type: string
