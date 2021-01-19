@@ -1,0 +1,82 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+ssgVersion: 3.8.4
+buildCommand: jekyll build
+publishDir: _site
+staticDir: assets
+uploadDir: 'assets/img'
+dataDir: '_data'
+pagesDir: ''
+models:
+  config:
+    type: data
+    label: Config
+    file: _config.yml
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Sites Title
+      - type: string
+        name: email
+        label: Email Address
+      - type: string
+        name: description
+        label: Description of the site
+      - type: string
+        name: baseurl
+        label: Subpath of the site
+      - type: string
+        name: url
+        label: Base hostname for your site
+      - type: string
+        name: twitter_username
+        label: Twitter Username
+      - type: string
+        name: github_username
+        label: Github Username
+      - type: string
+        name: theme
+        label: Theme
+      - type: string
+        name: plugins
+        label: Plugins
+  article:
+    type: page
+    label: Posts
+    folder: _posts
+    fields:
+      - type: string
+        name: layout
+        label: Layout Type
+      - type: string 
+        name: title # this identifies the front-matter field "title"
+        label: Blog Post Title
+      - type: string # this will use a toggle input in the CMS
+        name: date
+        label: Date
+      - type: string # this will use a file upload widget in the CMS
+        name: categories
+        label: Blog Post Categories
+  About:   
+    type: page
+    label: About Page
+    file: /about/content-about.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: about page
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: permalink
+        label: Permalink
+  Home:
+    type: page
+    label: Home Page
+    file: "index.md"
+    singleInstance: true
+    urlPath: "/"
