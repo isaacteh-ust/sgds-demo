@@ -8,27 +8,10 @@ uploadDir: 'assets/img'
 dataDir: '_data'
 pagesDir: 'contents'
 models:
-  article:
-    type: page
-    label: Posts
-    folder: _posts
-    fields:
-      - type: string
-        name: layout
-        label: Layout Type
-      - type: string 
-        name: title # this identifies the front-matter field "title"
-        label: Blog Post Title
-      - type: string # this will use a toggle input in the CMS
-        name: date
-        label: Date
-      - type: string # this will use a file upload widget in the CMS
-        name: categories
-        label: Blog Post Categories
   About:   
     type: page
     label: About Page
-    file: "about/content-about.md"
+    file: "/contents/about/content-about.md"
     singleInstance: true
     fields:
       - type: string
