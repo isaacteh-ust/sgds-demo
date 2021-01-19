@@ -80,3 +80,10 @@ models:
     file: "index.md"
     singleInstance: true
     urlPath: "/"
+    fields:
+      type: string
+      name: layout
+      label: Layout
+      type: string
+      name: title
+      label: Title
