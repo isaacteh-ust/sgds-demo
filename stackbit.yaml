@@ -8,11 +8,19 @@ uploadDir: 'assets/img'
 dataDir: '_data'
 pagesDir: ''
 models:
+  Config:
+    type: data
+    laebl: Config
+    file: _config.yml
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Sites Title
   About:   
     type: page
     label: About Page
-    file: "contents/about/content-about.md"
-    singleInstance: true
+    folder: "contents/about/"
     fields:
       - type: string
         name: title
