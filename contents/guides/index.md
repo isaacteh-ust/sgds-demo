@@ -1,4 +1,9 @@
-\--- title: Guides layout: layout-default permalink: /guides/ nodropdown: true ---
+--- 
+title: Guides 
+layout: layout-default 
+permalink: /guides/ 
+nodropdown: true 
+---
 
 {%- include guide-card-section.html -%}
 
