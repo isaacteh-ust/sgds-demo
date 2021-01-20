@@ -17,3 +17,16 @@ models:
         name: title
         label: Title
         description: About Page.
+  home:
+    type: page
+    label: Home
+    file: index.md
+    singleInstance: true
+    urlPath: '/'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title

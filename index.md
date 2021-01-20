@@ -1,6 +1,6 @@
 ---
-title: Home
 layout: layout-default
+title: Home
 ---
 
 Singapore Government Design System
