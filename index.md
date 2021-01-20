@@ -1,4 +1,7 @@
-\--- title: Home layout: layout-default ---
+---
+title: Home
+layout: layout-default
+---
 
 Singapore Government Design System
 ==================================
