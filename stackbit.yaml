@@ -6,12 +6,12 @@ publishDir: _site
 staticDir: assets
 uploadDir: 'assets/img'
 dataDir: '_data'
-pagesDir: 'contents'
+pagesDir: ''
 models:
   about:
     type: page
     label: About
-    file: about/content-about.md
+    file: contents/about/content-about.md
     fields:
       - type: string
         name: title
