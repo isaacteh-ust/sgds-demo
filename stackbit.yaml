@@ -22,6 +22,12 @@ models:
       - type: string
         name: permalink
         label: Permalink
+      - type: string
+        name: header
+        label: Header
+      - type: string
+        name: section
+        label: Section
   home:
     type: page
     label: Home
