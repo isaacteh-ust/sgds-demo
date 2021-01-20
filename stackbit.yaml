@@ -19,6 +19,9 @@ models:
         name: title
         label: Title
         description: About Page.
+      - type: string
+        name: permalink
+        label: Permalink
   home:
     type: page
     label: Home
