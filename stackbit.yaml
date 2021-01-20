@@ -7,3 +7,13 @@ staticDir: assets
 uploadDir: 'assets/img'
 dataDir: '_data'
 pagesDir: 'contents'
+models:
+  about:
+    type: page
+    label: About
+    file: about/content-about.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: About Page.
