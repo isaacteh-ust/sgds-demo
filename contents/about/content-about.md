@@ -48,12 +48,6 @@ Transactional sites are usually built by vendors, who are encouraged to leverage
 
 * * *
 
-### How Everything Fits
-
-![relationships](/assets/img/img_relationships.png)
-
-* * *
-
 ### Our Core Principles
 
 We constantly keep these core principles in mind when making design decisions at SGDS.
@@ -70,4 +64,28 @@ We constantly keep these core principles in mind when making design decisions at
 
 ### Why use a design system?
 
+A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications. It enables teams to build better products more quickly at scale using reusable designs.
 
+This concept is well-explained by Brad Frost through [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) from Brad Frost:
+
+Atoms
+
+The basic building blocks, for e.g. form label, an icon or a button
+
+Molecules
+
+Groups of atoms bonded together to do one thing
+
+Organisms
+
+Groups of molecules joined together to form a complex section of an interface
+
+Templates
+
+Groups of organisms stitched together to form pages
+
+Pages
+
+Pages are specific instances of templates. These are what end users ultimately see
+
+Atomic design comprises designs spanning from abstract to concrete. Because of this, we can create products that are visually consistent, yet retain distinctive features. And by assembling rather than deconstructing, we are crafting an efficient design system to help you save time and effort.
