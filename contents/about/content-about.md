@@ -3,7 +3,6 @@ layout: layout-about
 title: About
 permalink: /about/
 ---
-
 <h2>Background</h2>
 <p>
     The Singapore Government Design System (SGDS) was developed to empower
@@ -104,7 +103,6 @@ permalink: /about/
     industry’s best practices.
 </p>
 
-
 <hr>
 
 <h3>Why use a design system?</h3>
@@ -147,7 +145,7 @@ permalink: /about/
     </tbody>
 </table>
 <p>
-  Atomic design comprises designs spanning from abstract to concrete.
+  Atomic1 design comprises designs spanning from abstract to concrete.
   Because of this, we can create products that are visually consistent,
   yet retain distinctive features. And by assembling rather than deconstructing,
   we are crafting an efficient design system to help you save time and effort.
