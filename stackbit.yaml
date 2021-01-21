@@ -16,6 +16,7 @@ models:
     fields:
       - type: string
         name: item_1
+        label: Item 1
   about:
     type: page
     label: About
