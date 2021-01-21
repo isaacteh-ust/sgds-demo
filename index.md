@@ -35,7 +35,12 @@ container_item_4_1: Reduce your technical debt with
 container_item_4_2: our evolving design choices
 container_item_5_1: Build and experiment with our
 container_item_5_2: plug-n-play components
-container_item_6_1: ''
+container_item_6_1: >-
+  Our components comply with the <br />                                 <a
+  href="https://www.tech.gov.sg/digital-service-standards/"                                    
+  >Digital Services Standards</a                                
+  >                                 and                                 <a
+  href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG</a>
 container_item_6_2: Digital Services Standards and WCAG
 button_1: Learn more about SGDS
 button_1_link: /about/
