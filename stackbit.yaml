@@ -19,7 +19,7 @@ models:
         label: Guides Main
       - type: string
         name: guides_item_1
-        label: Item 1
+        label: Guides Item 1
       - type: string
         name: guides_item_1_link
         label: Guides Item 1 Link
@@ -29,6 +29,30 @@ models:
       - type: image
         name: guides_item_1_image
         label: Guide Item 1 Image
+      - type: string
+        name: guides_item_2
+        label: Guides Item 2
+      - type: string
+        name: guides_item_2_link
+        label: Guides Item 2 Link
+      - type: string
+        name: guides_item_2_description
+        label: Guide Item 2 Description
+      - type: image
+        name: guides_item_2_image
+        label: Guide Item 2 Image
+      - type: string
+        name: guides_item_3
+        label: Guides Item 3
+      - type: string
+        name: guides_item_3_link
+        label: Guides Item 3 Link
+      - type: string
+        name: guides_item_3_description
+        label: Guide Item 3 Description
+      - type: image
+        name: guides_item_3_image
+        label: Guide Item 3 Image                
   about:
     type: page
     label: About
