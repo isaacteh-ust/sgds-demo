@@ -1,7 +1,7 @@
 ---
 layout: layout-home
 title: Home
-content_intro: Welcome to My Demo
+content_intro: SIngapore Goverment Design System
 content_intro_description: Build your next best digital experience for Singapore
 content_intro_button_link: Let Get start
 content_intro_img: assets/img/bg_people.png
