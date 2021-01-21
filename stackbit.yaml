@@ -20,6 +20,15 @@ models:
       - type: string
         name: guides_item_1
         label: Item 1
+      - type: string
+        name: guides_item_1_link
+        label: Guides Item 1 Link
+      - type: string
+        name: guides_item_1_description
+        label: Guide Item 1 Description
+      - type: image
+        name: guides_item_1_image
+        label: Guide Item 1 Image
   about:
     type: page
     label: About
