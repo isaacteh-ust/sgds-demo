@@ -145,7 +145,7 @@ permalink: /about/
     </tbody>
 </table>
 <p>
-  Atomic1 design comprises designs spanning from abstract to concrete.
+  Atomic design comprises designs spanning from abstract to concrete.
   Because of this, we can create products that are visually consistent,
   yet retain distinctive features. And by assembling rather than deconstructing,
   we are crafting an efficient design system to help you save time and effort.
