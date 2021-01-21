@@ -114,13 +114,13 @@ models:
         label: Content Intro Image
       - type: string
         name: content_guides
-        label: Content Component
+        label: Content Guides
       - type: string
         name: content_guides_head
-        label: Content Component Head
+        label: Content Guides Head
       - type: string
         name: content_guides_description
-        label: Content Component Description
+        label: Content Guides Description
       - type: string
         name: content_component_link
         label: Content Component Link
