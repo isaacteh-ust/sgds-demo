@@ -4,7 +4,7 @@ ssgVersion: 3.8.4
 buildCommand: jekyll build
 publishDir: _site
 staticDir: assets
-uploadDir: 'assets/img'
+uploadDir: 'img'
 dataDir: '_data'
 pagesDir: ''
 models:
