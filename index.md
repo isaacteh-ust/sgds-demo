@@ -9,6 +9,8 @@ content_component_img: assets/img/bg_components.png
 content_component: Components
 content_component_head: Deliver your next big idea
 content_component_description: By implementing and customising frontend components for your digital services and products. 
+content_component_link: /guides/
+content_guides_link: /docs/
 content_guides_img: assets/img/bg_guides.png
 content_guides: Guides
 content_guides_head: Be prepared for your next digital project

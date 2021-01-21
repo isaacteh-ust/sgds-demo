@@ -77,3 +77,9 @@ models:
       - type: string
         name: content_guides_description
         label: Content Component Description
+      - type: string
+        name: content_component_link
+        label: Content Component Link
+      - type: string
+        name: content_guides_link
+        label: Content Guides Link
