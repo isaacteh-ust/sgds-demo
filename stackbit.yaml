@@ -41,3 +41,6 @@ models:
       - type: string
         name: title
         label: Title
+      - type: string
+        name: content_header
+        label: Content Header
