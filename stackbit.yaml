@@ -3,8 +3,8 @@ ssgName: jekyll
 ssgVersion: 3.8.4
 buildCommand: jekyll build
 publishDir: _site
-staticDir: assets
-uploadDir: 'img'
+staticDir: ''
+uploadDir: 'asserts/img'
 dataDir: '_data'
 pagesDir: ''
 models:
