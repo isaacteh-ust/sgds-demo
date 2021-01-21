@@ -13,7 +13,6 @@ models:
     label: About
     file: contents/about/content-about.md
     singleInstance: true
-    urlPath: '/about/'
     fields:
       - type: string
         name: title
