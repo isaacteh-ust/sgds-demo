@@ -65,3 +65,15 @@ models:
       - type: string
         name: content_component_description
         label: Content Component Description
+      - type: image
+        name: content_guides_img
+        label: Content Intro Image
+      - type: string
+        name: content_guides
+        label: Content Component
+      - type: string
+        name: content_guides_head
+        label: Content Component Head
+      - type: string
+        name: content_guides_description
+        label: Content Component Description
