@@ -19,6 +19,7 @@ content_guides_head: Be prepared for your next digital project
 content_guides_description: >-
   Whether you are a designer, developer or content writer, we equip you with
   guidelines and best practices to follow.
+container_item_head: Why should you use SGDS?
 container_item_1: Greater Scalability
 container_item_2: Trust in Services
 container_item_3: Focus on User Experience
