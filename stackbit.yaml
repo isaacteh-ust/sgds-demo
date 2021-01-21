@@ -53,3 +53,15 @@ models:
       - type: image
         name: content_intro_img
         label: Content Intro Image
+      - type: image
+        name: content_component_img
+        label: Content Intro Image
+      - type: string
+        name: content_component
+        label: Content Component
+      - type: string
+        name: content_component_head
+        label: Content Component Head
+      - type: string
+        name: content_component_description
+        label: Content Component Description
