@@ -8,6 +8,14 @@ uploadDir: 'assets/img'
 dataDir: '_data'
 pagesDir: ''
 models:
+  guides:
+    type: page
+    label: Guides
+    file: contents/guides/index.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: item_1
   about:
     type: page
     label: About
@@ -112,3 +120,4 @@ models:
         name: button_1_link
       - type: string
         name: container_item_head 
+
