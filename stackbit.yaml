@@ -15,7 +15,7 @@ models:
     singleInstance: true
     fields:
       - type: string
-        name: item_1
+        name: guides_item_1
         label: Item 1
   about:
     type: page
