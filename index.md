@@ -26,16 +26,11 @@ container_item_3: Focus on User Experience
 container_item_4: 'Easy maintenance, Low Cost'
 container_item_5: Faster Prototyping
 container_item_6: Uncomplicated Complianc
-container_item_1_1: >- 
-  Our UI components can be adapted <br /> to suit your users’ needs
-container_item_2_1: >-
-  Boost user confidence with our <br /> recognisable design patterns
-container_item_3_1: >-
-  You can spend less time styling and <br /> more time crafting user flows
-container_item_4_1: >-
-  Reduce your technical debt with <br /> our evolving design choices
-container_item_5_1: >-
-  Build and experiment with our <br /> plug-n-play components
+container_item_1_1: Our UI components can be adapted <br /> to suit your users’ needs
+container_item_2_1: Boost user confidence with our <br /> recognisable design patterns
+container_item_3_1: You can spend less time styling and <br /> more time crafting user flows
+container_item_4_1: Reduce your technical debt with <br /> <br />our evolving design choices
+container_item_5_1: Build and experiment with our <br /> plug-n-play components
 container_item_6_1: >-
   Our components comply with the <br />                                 <a
   href="https://www.tech.gov.sg/digital-service-standards/"                                    
