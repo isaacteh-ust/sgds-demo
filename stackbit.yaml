@@ -16,7 +16,7 @@ models:
     fields:
       - type: string
         name: guides_main
-        label: Header
+        label: Guides Main
       - type: string
         name: guides_item_1
         label: Item 1
