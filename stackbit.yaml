@@ -86,39 +86,27 @@ models:
       - type: string
         name: container_item_1
       - type: string
-        name: container_item_1_1
-      - type: string
-        name: container_item_1_2                
+        name: container_item_1_1               
       - type: string      
         name: container_item_2
       - type: string      
-        name: container_item_2_1
-      - type: string      
-        name: container_item_2_2                
+        name: container_item_2_1               
       - type: string
         name: container_item_3
       - type: string
-        name: container_item_3_1
-      - type: string
-        name: container_item_3_2                
+        name: container_item_3_1            
       - type: string
         name: container_item_4
       - type: string
-        name: container_item_4_1
-      - type: string
-        name: container_item_4_2                
+        name: container_item_4_1             
       - type: string
         name: container_item_5
       - type: string
-        name: container_item_5_1
-      - type: string
-        name: container_item_5_2                
+        name: container_item_5_1              
       - type: string
         name: container_item_6
       - type: string
         name: container_item_6_1
-      - type: string
-        name: container_item_6_2
       - type: string  
         name: button_1
       - type: string
