@@ -48,9 +48,9 @@ layout: layout-default
                                 </figure>
                             </div>
                             <div class="sgds-card-content has-text-centered">
-                                <p class="has-text-weight-bold is-size-4 margin--bottom--none">{{ content_component }}</p>
+                                <p class="has-text-weight-bold is-size-4 margin--bottom--none">{{ page.content_component }}</p>
                                 <p>
-                                    {{ content_component_head }}
+                                    {{ page.content_component_head }}
                                 </p>
                                 <div class="content is-small">
                                    {{ content_component_description }}
@@ -65,16 +65,16 @@ layout: layout-default
                     <div class="sgds-card-button has-outline">
                         <div class="sgds-card-image">
                             <figure class="card-icon has-text-centered">
-                                <img alt="Guidelines" src="/assets/img/bg_guides.png" alt="man pointing to documentation on a computer" />
+                                <img alt="Guidelines" src={{ page.content_guides_img }} alt="man pointing to documentation on a computer" />
                             </figure>
                         </div>
                         <div class="sgds-card-content has-text-centered">
-                            <p class="has-text-weight-bold is-size-4 margin--bottom--none">Guides</p> 
+                            <p class="has-text-weight-bold is-size-4 margin--bottom--none">{{ page.content_guides}}</p> 
                             <p>
-                                Be prepared for your next digital project
+                                {{ page.content_guides_description }}
                             </p>
                             <div class="content is-small">
-                                Whether you are a designer, developer or content writer, we equip you with guidelines and best practices to follow.
+                                {{ page.content_guides_description }}
                             </div>
                         </div>
                     </div>
