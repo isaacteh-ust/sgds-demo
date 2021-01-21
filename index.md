@@ -7,6 +7,8 @@ content_intro_button_link: Get Started
 content_intro_img: assets/img/bg_people.png
 content_component_img: assets/img/bg_components.png
 content_component: Components
-content_component_head: Deliver your next big idea
-content_component_description: By implementing and customising frontend components for your digital services and products. 
+content_component_head: Deliver your next big idea1
+content_component_description: >-
+  By implementing and customising frontend components for your digital services
+  and products.
 ---
