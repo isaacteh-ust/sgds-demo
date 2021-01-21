@@ -42,5 +42,11 @@ models:
         name: title
         label: Title
       - type: string
-        name: content_header
-        label: Content Header
+        name: content_intro
+        label: Content Intro
+      - type: string
+        name: content_intro_description
+        label: Content Intro Decsription
+      - type: string
+        name: content_intro_button_link
+        labe: Content Intro Button Link
