@@ -1,5 +1,7 @@
 ---
 layout: layout-about
+title: About
+permalink: /about/
 ---
 
 <h2>Background</h2>
