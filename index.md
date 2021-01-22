@@ -1,7 +1,7 @@
 ---
 layout: layout-home
 title: Home
-content_intro: SIngapore Goverment Design System
+content_intro: This is Demo Test
 content_intro_description: Build your next best digital experience for Singapore
 content_intro_button_link: Get Started
 content_intro_img: assets/img/demo/demo-management-system.png
