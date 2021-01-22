@@ -5,7 +5,7 @@ content_intro: SIngapore Goverment Design System
 content_intro_description: Build your next best digital experience for Singapore
 content_intro_button_link: Get Started
 content_intro_img: assets/img/bg_people.png
-content_component_img: assets/img/bg_components.png
+content_component_img: assets/img/insta-logo.jpg
 content_component: Components
 content_component_head: Deliver your next big idea
 content_component_description: >-
