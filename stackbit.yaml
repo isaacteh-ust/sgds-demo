@@ -30,10 +30,6 @@ models:
         name: contact-us
       - type: string
         name: search_placeholder
-      - type: model
-        name: footer
-        label: Footer configuration
-        models: [footer]
   post:
     type: page
     label: "Blog Post"
