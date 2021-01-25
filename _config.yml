@@ -18,6 +18,10 @@ footer:
   userguides_3: Submit a Theme
   userguides_3_link: /coming-soon/
   others: Other Sites
+  others_1: Developer Portal
+  others_1_link: https://www.developer.gov.sg
+  others_2: Isomer
+  others_2_link: https://www.isomer.gov.sg/
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
