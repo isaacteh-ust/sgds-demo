@@ -8,6 +8,22 @@ uploadDir: 'assets/img'
 dataDir: '_data'
 pagesDir: ''
 models:
+  post:
+    type: page
+    label: "Blog Post"
+    folder: contents/docs
+    urlPath: "/docs/{slug}"
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: Docs Page.
+      - type: string
+        name: permalink
+        label: Permalink
+      - type: string
+        name: layout
+        label: Layout
   guides:
     type: page
     label: Guides
