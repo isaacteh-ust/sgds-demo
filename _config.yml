@@ -8,6 +8,16 @@ report_vulnerability: 'https://tech.gov.sg/report_vulnerability'
 contact_us: 'https://form.gov.sg/forms/govtech/5bc440ac507956000fdbae91'
 feedback_form: 'https://form.gov.sg/#!/forms/govtech/5bd12c6668dbe7000fff9ace'
 search_placeholder: What are you looking for?
+footer:
+  title: Singapore Government Design System
+  userguides: User Guides
+  userguides_1: Get started with Design System
+  userguides_1_link: /docs/getting-started/
+  userguides_2: Suggest a Component
+  userguides_2_link: https://github.com/GovTechSG/sgds/issues
+  userguides_3: Submit a Theme
+  userguides_3_link: /coming-soon/
+  others: Other Sites
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from

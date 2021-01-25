@@ -10,21 +10,21 @@
       </div>
       <div class="row">
         <div class="col is-3">
-          <p class="has-text-white"><b>site.userguides</b></p>
+          <p class="has-text-white"><b>{{ site.footer.userguides }}</b></p>
           <p>
-            <a href=site.userguides_1_link>site.userguides_1</a>
+            <a href="{{ site.footer.userguides_1_link }}">{{ site.footer.userguides_1 }}</a>
           </p>
           <p>
-            <a href=site.userguides_2_link
-              >site.userguides_2</a
+            <a href="{{ site.footer.userguides_2_link }}"
+              >{{ site.footer.userguides_2 }}</a
             >
           </p>
-          <p><a href=site.userguides_3_link>site.userguides_3</a></p>
+          <p><a href="{{ site.footer.userguides_3_link }}">{{ site.footer.userguides_3 }}</a></p>
         </div>
         <div class="col is-3">
-          <p class="has-text-white"><b>Other Sites</b></p>
-          <p><a href="https://www.developer.gov.sg">Developer Portal</a></p>
-          <p><a href="https://www.isomer.gov.sg/">Isomer</a></p>
+          <p class="has-text-white"><b>{{ site.footer.others }}</b></p>
+          <p><a href="{{ site.footer.others_1_link }}">{{ site.footer.others_1 }}</a></p>
+          <p><a href="{{ site.footer.other_2_link }}">{{ site.footer.other_2 }}</a></p>
         </div>
       </div>
       <div class="row">
