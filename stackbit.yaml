@@ -8,6 +8,28 @@ uploadDir: 'assets/img'
 dataDir: '_data'
 pagesDir: ''
 models:
+  config:
+    type: config
+    label: Site Configuration
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: description
+        label: Description
+      - type: image
+        name: logo
+        label: Logo
+      - type: string
+        name: report_vulnerability
+      - type: string
+        name: contact-us
+      - type: string
+        name: feedback_form
+      - type: string
+        name: contact-us
+      - type: string
+        name: search_placeholder
   post:
     type: page
     label: "Blog Post"
