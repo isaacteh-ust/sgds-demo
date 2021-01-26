@@ -135,7 +135,7 @@ models:
   docs:
     type: page
     label: Docs
-    folder: contents/docs
+    filePath: "contents/docs/{slug}.md"
     urlPath: "/docs/{slug}"
     fields:
       - type: string
@@ -143,9 +143,9 @@ models:
       - type: string
         name: layout
       - type: string
-        name: permalink  
+        name: permalink
       - type: string
-        name: redirect_from                                                                                              
+        name: redirect_from                                                                                     
   general:
     type: page
     label: general
