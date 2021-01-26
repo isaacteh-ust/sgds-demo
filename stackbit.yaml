@@ -104,8 +104,8 @@ models:
                     - type: string
                       name: title
                     - type: string
-                      name: url  
-  initial-variables:
+                      name: url            
+  initialvariables:
     type: data
     label: Initial Variables
     file: initial-variables.json
@@ -131,7 +131,7 @@ models:
           - type: string
             name: type
           - type: string
-            name: state            
+            name: state
   docs:
     type: page
     label: Docs
