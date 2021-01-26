@@ -56,11 +56,23 @@ models:
       - type: string
         name: report_vulnerability
       - type: string
-        name: contact-us
+        name: contact_us
       - type: string
         name: feedback_form
       - type: string
-        name: contact-us
+        name: contact_us_link
+      - type: string
+        name: feedback_form_link
+      - type: string
+        name: privacy
+      - type: string
+        name: privacy_link
+      - type: string
+        name: terms
+      - type: string
+        name: terms_link
+      - type: string
+        name: last_updated                                        
       - type: string
         name: search_placeholder
       - type: object
