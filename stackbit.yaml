@@ -105,6 +105,57 @@ models:
             name: others_2
           - type: string
             name: others_2_link
+      - type: string
+        name: collections_dir      
+      - type: object
+        name: collections
+        label: Collections Configuration
+        fields:
+          - type: object
+            name: stardards
+            fields:
+              - type: string
+                name: permalink
+              - type: string
+                name: output
+              - type: string
+                name: order
+          - type: object
+            name: layout
+            fields:
+              - type: string
+                name: permalink
+              - type: string
+                name: output
+              - type: string
+                name: order
+          - type: object
+            name: general
+            fields:
+              - type: string
+                name: permalink
+              - type: string
+                name: output
+              - type: string
+                name: order
+          - type: object
+            name: form
+            fields:
+              - type: string
+                name: permalink
+              - type: string
+                name: output
+              - type: string
+                name: order
+          - type: object
+            name: helpers
+            fields:
+              - type: string
+                name: permalink
+              - type: string
+                name: output
+              - type: string
+                name: order                                                                
   general:
     type: page
     label: general
@@ -131,8 +182,6 @@ models:
         name: icon
       - type: string
         name: layout
-      - type: string
-        name: permalink
       - type: string
         name: category               
   standard:
