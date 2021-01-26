@@ -132,6 +132,19 @@ models:
             name: type
           - type: string
             name: state
+  patterns:
+    type: page
+    label: Layout
+    folder: collections/_patterns
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: icon
+      - type: string
+        name: layout
+      - type: string
+        name: category
   layout:
     type: page
     label: Layout
@@ -144,7 +157,7 @@ models:
       - type: string
         name: layout
       - type: string
-        name: category               
+        name: category            
   standard:
     type: page
     label: Standard

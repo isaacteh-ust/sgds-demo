@@ -2,110 +2,51 @@
 title: Address
 layout: layout-docs
 ---
+Collecting addresses
+--------------------
 
-<h2>Collecting addresses</h2>
+Use this pattern when you require users to key in their Singapore-based address.
 
-<p>
-    Use this pattern when you require users to key in their Singapore-based address.
-</p>
-<p>
-  <b>Note:</b> Give your users the option to either key in their postal code to
-  look up their address, or enter their full address manually.
-</p>
+**Note:** Give your users the option to either key in their postal code to look up their address, or enter their full address manually.
 
-<hr />
+* * *
 
-<h3>Usage</h3>
-<p>
-  Below you will find a <b>General Address Format</b> you can use, along with
-  the code needed to build this element.
-</p>
+### Usage
+
+Below you will find a **General Address Format** you can use, along with the code needed to build this element.
+
 {% capture address %}
-<div class="field">
-    <label class="label" for="postal-code">Postal Code</label>
-    <div class="control">
-        <input class="input col is-4"
-        type="text"
-        name="postal-code"
-        id="postal-code"
-        autocomplete="postal-code" />
-    </div>
-    <button class="sgds-button is-primary margin--top--sm">Find Address</button>
-</div>
 
-<div class="field margin--top--lg">
-    <label class="label" for="street-name">Block/Street Name</label>
-    <div class="control">
-        <input
-            class="input margin--bottom--lg col is-8"
-            type="text"
-            name="street-name"
-            id="street-name"
-            autocomplete="street-address"
-        />
-    </div>
-</div>
+Postal Code
 
-<div class="field">
-    <label class="label" for="building-number">Building/House Number</label>
-    <span class="hint">If applicable</span>
-    <div class="control">
-        <input class="input margin--bottom--lg col is-4"
-        type="text"
-        name="building-number"
-        id="building-number" />
-    </div>
-</div>
+Find Address
 
-<div class="field">
-    <label class="label" for="unit-number">Unit Number</label>
-    <div class="control">
-        <input
-            class="input margin--bottom--lg col is-4"
-            type="text"
-            id="unit-number"
-            name="unit-number"
-        />
-    </div>
-</div>
+Block/Street Name
+
+Building/House Number If applicable
+
+Unit Number
+
 {% endcapture %}
 
+{{address}}
 
-<div class="sgds-example-others">{{address}}</div>
-{%- highlight html -%}{{address}}{%- endhighlight -%}
+{%- highlight html -%}{{address}}{%- endhighlight -%} Copy snippet
 
-<button
-    class="sgds-button clipboard-btn is-primary is-outlined"
-    data-clipboard-target=".highlight0"
->
-    Copy snippet
-</button>
+* * *
 
-<hr/>
+### Guidelines
 
-<h3>Guidelines</h3>
+#### For your Address Lookup
 
-<h4  class="margin--top--lg">For your Address Lookup</h4>
-<ul>
-    <li>Make it clear to users that this will only work with Singapore addresses.</li>
-    <li>Use the address lookup <b>only</b> if you are asking for a
-      <b>Singapore address</b>. Otherwise, use multiple text inputs or
-      a text area when asking for addresses outside of Singapore.</li>
-</ul>
+*   Make it clear to users that this will only work with Singapore addresses.
+*   Use the address lookup **only** if you are asking for a **Singapore address**. Otherwise, use multiple text inputs or a text area when asking for addresses outside of Singapore.
 
-<h4  class="margin--top--lg">For Manually-entered Addresses</h4>
-<ul>
-    <li>The fields should always have the <code>autocomplete</code> attribute
-      to help your users complete it quickly.
-    </li>
-    <li>You will need to include the <code>autocomplete</code> attribute to meet
-        <a
-            href="https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html"
-            target="_blank"
-            >WCAG 2.1 AA</a
-        >
-        for production.</li>
-</ul>
-<hr />
+#### For Manually-entered Addresses
+
+*   The fields should always have the `autocomplete` attribute to help your users complete it quickly.
+*   You will need to include the `autocomplete` attribute to meet [WCAG 2.1 AA](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html) for production.
+
+* * *
 
 {%- include sgds-feedback.html -%}
