@@ -157,6 +157,7 @@ models:
   docs:
     type: page
     urlPath: '/docs/{slug}'
+    layout: layout-docs
     label: Docs
     folder: docs
     fields:
