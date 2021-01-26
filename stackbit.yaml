@@ -123,12 +123,12 @@ models:
   layout:
     type: page
     label: layout
-    folder: contents/_layout
+    folder: collections/_layout
     fields:
       - type: string
         name: title
       - type: string
-        name: subtitle
+        name: icon
       - type: string
         name: layout
       - type: string
