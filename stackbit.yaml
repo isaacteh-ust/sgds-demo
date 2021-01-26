@@ -159,7 +159,7 @@ models:
     type: page
     label: Docs
     folder: contents/docs
-    urlPath: /docs/{slug}
+    urlPath: '/docs/{slug}'
     fields:
       - type: string
         name: title
