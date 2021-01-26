@@ -1,7 +1,6 @@
 - category: Mandatory
   icons:
     - iconName: sg-crest
-    - iconName: lorem-ipsum
 - category: Fundamentals
   icons:
     - iconName: home
