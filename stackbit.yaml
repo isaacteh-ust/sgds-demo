@@ -153,15 +153,7 @@ models:
       - type: string
         name: title
       - type: string
-        name: layout
-  page:
-    type: page
-    label: Page
-    layout: page
-    exclude: _docs/**
-    fields:
-      - type: string
-        name: title                      
+        name: layout                     
   docs:
     type: page
     urlPath: '/docs/{slug}'
@@ -175,10 +167,11 @@ models:
       - type: string
         name: permalink
       - type: string
-        name: redirect_from                                                                                     
+        name: redirect_from
   general:
     type: page
     label: general
+    urlPath: '/{slug}'
     folder: general
     fields:
       - type: string
