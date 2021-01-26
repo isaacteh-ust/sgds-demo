@@ -135,8 +135,8 @@ models:
   docs:
     type: page
     label: Docs
-    filePath: "contents/docs/{slug}.md"
-    urlPath: "/docs/{slug}"
+    folder: contents/docs
+    urlPath: /docs/{slug}
     fields:
       - type: string
         name: title
