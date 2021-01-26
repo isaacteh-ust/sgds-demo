@@ -122,8 +122,8 @@ models:
         name: category   
   layout:
     type: page
-    label: general
-    folder: contents/_general
+    label: layout
+    folder: contents/_layout
     fields:
       - type: string
         name: title
