@@ -6,7 +6,7 @@ publishDir: _site
 staticDir: ''
 uploadDir: 'assets/img'
 dataDir: '_data'
-pagesDir: ''
+pagesDir: 'contents'
 models:                       
   config:
     type: config
@@ -158,7 +158,7 @@ models:
   docs:
     type: page
     label: Docs
-    folder: contents/docs
+    folder: docs
     urlPath: '/docs/{slug}'
     fields:
       - type: string
@@ -172,7 +172,7 @@ models:
   general:
     type: page
     label: general
-    folder: contents/general
+    folder: general
     fields:
       - type: string
         name: title
@@ -187,7 +187,7 @@ models:
   guides:
     type: page
     label: Guides
-    file: contents/guides/index.md
+    file: guides/index.md
     singleInstance: true
     fields:
       - type: string
@@ -250,7 +250,7 @@ models:
     type: page
     label: About
     urlPath: /about/
-    file: contents/about/content-about.md
+    file: about/content-about.md
     singleInstance: true
     fields:
       - type: string
