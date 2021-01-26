@@ -10,7 +10,7 @@ pagesDir: ''
 models:
   navigation:
     type: data
-    label: navigation
+    label: Navigation
     file: navigation.yml
     isList: true
     items:
@@ -63,6 +63,15 @@ models:
         name: contact-us
       - type: string
         name: search_placeholder
+      - type: list
+        name: footer
+        items:
+          type: object
+          fields:
+            - type: string
+              name: title
+            - type: string
+              name: userguides
   post:
     type: page
     label: "Blog Post"
