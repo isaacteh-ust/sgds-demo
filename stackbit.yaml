@@ -70,7 +70,29 @@ models:
           - type: string
             name: title
           - type: string
-            name: userguides  
+            name: userguides
+          - type: string
+            name: userguides_1
+          - type: string
+            name: userguides_1_link
+          - type: string
+            name: userguides_2
+          - type: string
+            name: userguides_2_link               
+          - type: string
+            name: userguides_3
+          - type: string
+            name: userguides_3_link
+          - type: string
+            name: others
+          - type: string
+            name: others_1  
+          - type: string
+            name: others_1_link
+          - type: string
+            name: others_2
+          - type: string
+            name: others_2_link                                                            
   post:
     type: page
     label: "Blog Post"
