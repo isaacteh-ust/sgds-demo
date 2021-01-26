@@ -143,22 +143,6 @@ models:
         name: title
       - type: string
         name: layout  
-  post:
-    type: page
-    label: "Docs"
-    folder: contents/docs
-    urlPath: "/docs/{slug}"
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: Docs Page.
-      - type: string
-        name: permalink
-        label: Permalink
-      - type: string
-        name: layout
-        label: Layout
   guides:
     type: page
     label: Guides
@@ -217,6 +201,7 @@ models:
     type: page
     label: Docs
     folder: contents/docs/
+    urlPath: "/docs/{slug}"
     fields:
       - type: string
         name: title
