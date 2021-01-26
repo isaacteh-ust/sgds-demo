@@ -132,6 +132,29 @@ models:
             name: type
           - type: string
             name: state
+  layout:
+    type: page
+    label: Layout
+    folder: collections/_layout
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: icon
+      - type: string
+        name: layout
+      - type: string
+        name: category               
+  standard:
+    type: page
+    label: Standard
+    folder: collections/_standard
+    urlPath: "/docs/{slug}"
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout              
   docs:
     type: page
     label: Docs
@@ -161,29 +184,6 @@ models:
         name: permalink
       - type: string
         name: category
-  layout:
-    type: page
-    label: Layout
-    folder: collections/_layout
-    fields:
-      - type: string
-        name: title
-      - type: string
-        name: icon
-      - type: string
-        name: layout
-      - type: string
-        name: category               
-  standard:
-    type: page
-    label: Standard
-    folder: collections/_standard
-    urlPath: "/docs/{slug}"
-    fields:
-      - type: string
-        name: title
-      - type: string
-        name: layout  
   guides:
     type: page
     label: Guides
