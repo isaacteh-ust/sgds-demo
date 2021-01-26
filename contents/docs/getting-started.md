@@ -5,114 +5,73 @@ permalink: /docs/getting-started/
 redirect_from:
     - /docs/
 ---
+Overview
+--------
 
-<h2>Overview</h2>
-<p><a href="/docs/installation">Installation</a></p>
-<p>
-    <a href="/docs/customise-sgds">Advanced customisation with Sass</a>
-</p>
-<p>
-    We highly recommend that you customise your site, by extending base SGDS
-    classes using separate CSS or <a href="/docs/customise-sgds">Sass</a> files.
-</p>
-<p>
-    This way, your site will automatically inherit non-conflicting fixes and
-    improvements made to SGDS without breaking existing styles.
-</p>
-<p>
-  Here are the items you’ll need:
-  <ul>
-    <li><a href="/docs/installation">Installation of SGDS</a>.</li>
-    <li><a href="/docs/customise-sgds">Use advanced customisation with Sass</a>.</li>
-  </ul>
-</p>
-<p>
-  <b>Note:</b> Links that contain the
-  <span class="sgds-tag is-rounded has-text-weight-semibold">JS</span>
-  tags contain interactive elements that require
-  <a href="/docs/installation">JavaScript</a>.
-</p>
-<p>
-  If you are using a JavaScript framework, check out the framework-specific helper libraries:
-</p>
-<ul>
-    <li>
-        <a href="https://github.com/govtechsg/sgds-govtech-react">
-        <i class="fab fa-react"></i>React</a>
-    </li>
-    <li>
-        <a href="https://github.com/govtechsg/sgds-govtech-vue">
-          <i class="fab fa-vuejs"></i>Vue</a>
-    </li>
-</ul>
+[Installation](/docs/installation)
 
-<hr />
+[Advanced customisation with Sass](/docs/customise-sgds)
 
-<h3>Component reference</h3>
-<p>
-  Component reference is helpful for you to implement layouts, elements and
-  components, using our CSS class and modifiers.
-</p>
-<p>
-  Each page provides you with comprehensive usage instructions, examples and guidelines.
-</p>
+We highly recommend that you customise your site, by extending base SGDS classes using separate CSS or [Sass](/docs/customise-sgds) files.
 
-<hr />
+This way, your site will automatically inherit non-conflicting fixes and improvements made to SGDS without breaking existing styles.
 
-<h3>Standard Components</h3>
-<p>
-  Standard components aid users in basic site identification and navigation.
-  They should be present in all <b>.gov.sg</b> websites as stated in the
-  <a href="https://www.tech.gov.sg/digital-service-standards/" target="_blank">
-    Digital Service Standards</a>.
-</p>
+Here are the items you’ll need:
 
-<div class="row is-multiline is-mobile">
-    {% include component-list.html collectionName='standard' %}
-</div>
+*   [Installation of SGDS](/docs/installation).
+*   [Use advanced customisation with Sass](/docs/customise-sgds).
 
-<hr />
+**Note:** Links that contain the JS tags contain interactive elements that require [JavaScript](/docs/installation).
 
-<h3>Layout</h3>
-<p>
-  CSS classes are used for composing your site layout. Over here, you can also
-  find the breakpoints that we use for desktop and mobile devices.
-</p>
+If you are using a JavaScript framework, check out the framework-specific helper libraries:
 
-<div class="row is-multiline is-mobile">
-    {% include component-list.html collectionName='layout' %}
-</div>
+*   [React](https://github.com/govtechsg/sgds-govtech-react)
+*   [Vue](https://github.com/govtechsg/sgds-govtech-vue)
 
-<hr />
+* * *
 
-<h3>General</h3>
-<p>
-  Common components that can be used individually or grouped to form patterns
-  and templates. For example, you can group the hero with cards to build a landing page.
-</p>
+### Component reference
 
-<div class="row is-multiline is-mobile">
-    {% include component-list.html collectionName='general' %}
-</div>
+Component reference is helpful for you to implement layouts, elements and components, using our CSS class and modifiers.
 
-<hr class="margin--bottom--lg margin--top--lg" />
+Each page provides you with comprehensive usage instructions, examples and guidelines.
 
-<h3>Form</h3>
-<p>
-  Form components and guidelines for the collection of user input.
-</p>
+* * *
 
-<div class="row is-multiline is-mobile">
-        {% include component-list.html collectionName='form' %}
-</div>
+### Standard Components
 
-<hr class="margin--bottom--lg margin--top--lg" />
+Standard components aid users in basic site identification and navigation. They should be present in all **.gov.sg** websites as stated in the [Digital Service Standards](https://www.tech.gov.sg/digital-service-standards/).
 
-<h3>Helpers</h3>
-<p>
-  Helper classes to help you alter the style of almost any component.
-</p>
+{% include component-list.html collectionName='standard' %}
 
-<div class="row is-multiline is-mobile margin--bottom--lg">
-    {% include component-list.html collectionName='helpers' %}
-</div>
+* * *
+
+### Layout
+
+CSS classes are used for composing your site layout. Over here, you can also find the breakpoints that we use for desktop and mobile devices.
+
+{% include component-list.html collectionName='layout' %}
+
+* * *
+
+### General
+
+Common components that can be used individually or grouped to form patterns and templates. For example, you can group the hero with cards to build a landing page.
+
+{% include component-list.html collectionName='general' %}
+
+* * *
+
+### Form
+
+Form components and guidelines for the collection of user input.
+
+{% include component-list.html collectionName='form' %}
+
+* * *
+
+### Helpers
+
+Helper classes to help you alter the style of almost any component.
+
+{% include component-list.html collectionName='helpers' %}
