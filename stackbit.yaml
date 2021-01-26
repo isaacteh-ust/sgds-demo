@@ -104,9 +104,7 @@ models:
           - type: string
             name: others_2
           - type: string
-            name: others_2_link
-      - type: string
-        name: collections_dir                                                                                       
+            name: others_2_link                                                                                      
   general:
     type: page
     label: general
@@ -121,7 +119,7 @@ models:
       - type: string
         name: permalink
       - type: string
-        name: category   
+        name: category
   layout:
     type: page
     label: layout
