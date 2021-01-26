@@ -16,5 +16,7 @@ guides_item_3: For Writers
 guides_item_3_link: /guides/writers-accessibility/
 guides_item_3_description: On presenting content for digital services
 guides_item_3_image: /assets/img/img_writing1.png
-test: testing
+visit-docs-section: Looking for components documentation? 
+visit-docs-section_button: Visit components
+visit-docs-section_button_link: /docs/
 ---
