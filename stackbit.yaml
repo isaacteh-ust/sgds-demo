@@ -6,7 +6,7 @@ publishDir: _site
 staticDir: ''
 uploadDir: 'assets/img'
 dataDir: '_data'
-pagesDir: 'contents'
+pagesDir: ''
 models:                       
   config:
     type: config
@@ -158,7 +158,7 @@ models:
   docs:
     type: page
     label: Docs
-    folder: docs
+    folder: contents/docs
     urlPath: '/docs/{slug}'
     fields:
       - type: string
