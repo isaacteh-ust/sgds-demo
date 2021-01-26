@@ -3,176 +3,67 @@ title: Customise SGDS with Sass
 layout: layout-sidenav
 permalink: /docs/customise-sgds/
 ---
+Overview
+--------
 
-<h2>Overview</h2>
-<p>
-	Use <a href="https://sass-lang.com/" target="_blank">Sass</a> to customise how
-	SGDS looks and behaves in your project
-</p>
+Use [Sass](https://sass-lang.com/) to customise how SGDS looks and behaves in your project
 
-<hr />
+* * *
 
-<h3>Working with SGDS's source files</h3>
+### Working with SGDS's source files
 
-<h4>If you installed sgds with NPM</h4>
+#### If you installed sgds with NPM
 
-<p>
-	The Sass source files for sgds can be found under 
-	<code>node_modules/sgds-govtech/sass</code>:
-</p>
+The Sass source files for sgds can be found under `node_modules/sgds-govtech/sass`:
 
-{%- highlight plaintext  -%}
-site-folder/
-├── scss
-│   └── custom.scss
-└── node_modules/
-    └── sgds-govtech/sass/
-        └── sgds.scss
-{%- endhighlight -%}
+{%- highlight plaintext -%} site-folder/ ├── scss │ └── custom.scss └── node\_modules/ └── sgds-govtech/sass/ └── sgds.scss {%- endhighlight -%}
 
-<h4>If you manually downloaded SGDS</h4>
-<p>
-	If you've manually <a href="/docs/getting-started">downloaded</a> the Sass files and are not
-	using a package manager, you can set up your code with the following folder structure:
-</p>
+#### If you manually downloaded SGDS
 
-{%- highlight plaintext -%}
-site-folder/
-├── scss
-│   └── custom.scss
-└── sgds/sass/
-	└── sgds.scss
-{%- endhighlight -%}
+If you've manually [downloaded](/docs/getting-started) the Sass files and are not using a package manager, you can set up your code with the following folder structure:
 
-<hr>
+{%- highlight plaintext -%} site-folder/ ├── scss │ └── custom.scss └── sgds/sass/ └── sgds.scss {%- endhighlight -%}
 
-<h3>Importing and overriding SGDS styles</h3>
+* * *
 
-<p>Import all styles:</p>
+### Importing and overriding SGDS styles
 
-{% highlight scss %}
-// Version 1.0.24
-@charset "utf-8";
+Import all styles:
 
-// Override SGDS defaults
-$primary: black;
-$secondary: darkorange;
-$warning: red;
+{% highlight scss %} // Version 1.0.24 @charset "utf-8"; // Override SGDS defaults $primary: black; $secondary: darkorange; $warning: red; // This must be overridden if you want to use icons! See below for more details $sgds-font-path: "../../../fonts"; // Import all of sgds @import "../node\_modules/sgds-govtech/sgds/sass/sgds.scss"; // If using Webpack @import "~sgds-govtech/sgds/sass/sgds.scss"; {% endhighlight%}
 
-// This must be overridden if you want to use icons! See below for more details
-$sgds-font-path: "../../../fonts";
+or import individual components as needed:
 
-// Import all of sgds
-@import "../node_modules/sgds-govtech/sgds/sass/sgds.scss";
+{% highlight scss %} @charset "utf-8"; $primary: black; $secondary: darkorange; $warning: red; // This must be overridden if you want to use icons! See below for more details $sgds-font-path: "../../../fonts"; // Required sass files @import "../node\_modules/sgds-govtech/sgds/sass/sgds-customise/all"; @import "../node\_modules/sgds-govtech/sgds/sass/sgds-base/all"; // Optional @import "../node\_modules/sgds-govtech/sgds/sass/sgds-components/sgds-masthead"; @import "../node\_modules/sgds-govtech/sgds/sass/sgds-components/sgds-navbar"; @import "../node\_modules/sgds-govtech/sgds/sass/sgds-components/sgds-side-navigation"; @import "../node\_modules/sgds-govtech/sgds/sass/sgds-components/sgds-footer"; @import "../node\_modules/sgds-govtech/sgds/sass/sgds-components/sgds-button"; @import "../node\_modules/sgds-govtech/sgds/sass/sgds-components/sgds-accordion"; // If using Webpack @import "~sgds-govtech/sgds/sass/..."; {% endhighlight%}
 
-// If using Webpack
-@import "~sgds-govtech/sgds/sass/sgds.scss";
-{% endhighlight%}
+#### Overriding `$sgds-font-path` to properly load icons
 
-<p>or import individual components as needed:</p>
+If you are building a single-page application (such as React or Vue) and use Webpack to compile your Sass files into inline styles (using style-loader), you **must** override the `$sgds-font-path` variable when importing _all styles_ (sgds/sass/sgds.scss) or _sgds-icons_ (sgds/sass/sgds-icons). Otherwise you may encounter a build error stating that the path to the `../fonts` folder cannot be resolved.
 
-{% highlight scss %}
-@charset "utf-8";
+#### Explanation
 
-$primary: black;
-$secondary: darkorange;
-$warning: red;
+When importing SGDS's Sass, Webpack has to resolve its `fonts` folder relative to the node module's sgds-icons folder in order to load inline styles correctly. This usually means that you would need to point Webpack to the correct fonts folder manually by overriding `$sgds-font-path`. For instance, with the following folder structure:
 
-// This must be overridden if you want to use icons! See below for more details
-$sgds-font-path: "../../../fonts";
+{% highlight plaintext %} node\_modules/ └── sgds-govtech/ ├── fonts/ │ └── font files └── sgds/ └── sass/ └── sgds-icons/ {% endhighlight %}
 
-// Required sass files
-@import "../node_modules/sgds-govtech/sgds/sass/sgds-customise/all";
-@import "../node_modules/sgds-govtech/sgds/sass/sgds-base/all";
+The path from `sgds-icons/` to the `fonts/` folder is `../../../fonts`, which would be what `$sgds-font-path` must be set to.
 
-// Optional
-@import "../node_modules/sgds-govtech/sgds/sass/sgds-components/sgds-masthead";
-@import "../node_modules/sgds-govtech/sgds/sass/sgds-components/sgds-navbar";
-@import "../node_modules/sgds-govtech/sgds/sass/sgds-components/sgds-side-navigation";
-@import "../node_modules/sgds-govtech/sgds/sass/sgds-components/sgds-footer";
-@import "../node_modules/sgds-govtech/sgds/sass/sgds-components/sgds-button";
-@import "../node_modules/sgds-govtech/sgds/sass/sgds-components/sgds-accordion";
+For more information, see the [sass-loader documentation](https://webpack.js.org/loaders/sass-loader/#problems-with-url)
 
-// If using Webpack
-@import "~sgds-govtech/sgds/sass/...";
-{% endhighlight%}
+* * *
 
-<h4 id="font-path-override">Overriding <code>$sgds-font-path</code> to properly load icons</h4>
+### The following default SGDS variables can be overridden:
 
-<div class="sgds-notification is-warning">
-	<div class="sgds-notification-detail">
-		<span class="sgds-icon sgds-icon-circle-info is-size-4"></span>
-		<div class="sgds-notification-content">
+{% for variable\_name in site.data.initial-variables %} {% endfor %}
 
-				If you are building a single-page application (such as React or Vue)
-				and use Webpack to compile your Sass files
-				into inline styles (using style-loader),
-				you <strong>must</strong> override
-				the <code>$sgds-font-path</code> variable when importing 
-				<em>all styles</em> (sgds/sass/sgds.scss) or 
-				<em>sgds-icons</em> (sgds/sass/sgds-icons). Otherwise you may encounter
-				a build error stating that the path to the <code>../fonts</code> folder cannot be resolved.
+Variable
 
-		</div>
-	</div>
-</div>
-<h4>Explanation</h4>
-<p>
-	When importing SGDS's Sass, Webpack has to resolve its <code>fonts</code> folder
-	relative to the node module's sgds-icons folder in order to load inline styles correctly.
-	This usually means that you would need to point Webpack to the correct fonts folder
-	manually by overriding <code>$sgds-font-path</code>. For instance, with the following
-	folder structure:
-</p>
+Default Value
 
-{% highlight plaintext %}
-node_modules/
-└── sgds-govtech/
-    ├── fonts/
-    │   └── font files
-    └── sgds/
-        └── sass/
-            └── sgds-icons/
+Type
 
-{% endhighlight %}
+`{{ variable_name[1].name }}`
 
-<p>The path from <code>sgds-icons/</code> to the <code>fonts/</code> folder is
-<code>../../../fonts</code>, which would be what <code>$sgds-font-path</code> must be set to.</p>
+{% if variable\_name\[1\].type == 'colour' %} {% endif %} `{{ variable_name[1].value }}`
 
-<p>For more information, see the <a href="https://webpack.js.org/loaders/sass-loader/#problems-with-url">sass-loader documentation</a></p>
-
-<hr/>
-
-<h3>The following default SGDS variables can be overridden:</h3>
-
-<table class="table is-striped is-size-8">
-	<thead>
-		<th>Variable</th>
-		<th>Default Value</th>
-		<th>Type</th>
-	</thead>
-	<tbody>
-		{% for variable_name in site.data.initial-variables %}
-		<tr>
-			<td width="30%">
-				<code>{{ variable_name[1].name }}</code>
-			</td>
-			<td>
-				<div class="is-flex is-flex-alignitems-c">
-					{% if variable_name[1].type == 'colour' %}
-					<span class="colorBox margin--right--sm is-{{
-              variable_name[1].state | remove: '$'
-            }}"></span>
-					{% endif %}
-					<code>{{ variable_name[1].value }}</code>
-				</div>
-			</td>
-			<td width="30%">
-				<a href="/docs/{{ variable_name[1].type }}">{{
-          variable_name[1].type | capitalize
-        }}</a>
-			</td>
-		</tr>
-		{% endfor %}
-	</tbody>
-</table>
+[{{ variable\_name\[1\].type | capitalize }}](/docs/{{ variable_name[1].type }})
