@@ -119,7 +119,22 @@ models:
       - type: string
         name: permalink
       - type: string
-        name: category          
+        name: category   
+  layout:
+    type: page
+    label: general
+    folder: contents/_general
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: subtitle
+      - type: string
+        name: layout
+      - type: string
+        name: permalink
+      - type: string
+        name: category               
   standard:
     type: page
     label: Standard
