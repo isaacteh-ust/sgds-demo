@@ -155,7 +155,21 @@ models:
               - type: string
                 name: output
               - type: string
-                name: order                                                                
+                name: order            
+          - type: object
+            name: guides
+            fields:
+              - type: string
+                name: permalink
+              - type: string
+                name: output   
+          - type: object
+            name: patterns
+            fields:
+              - type: string
+                name: permalink
+              - type: string
+                name: output                                                                                   
   general:
     type: page
     label: general
