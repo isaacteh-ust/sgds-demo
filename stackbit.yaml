@@ -165,7 +165,16 @@ models:
         label: Guide Item 3 Description
       - type: image
         name: guides_item_3_image
-        label: Guide Item 3 Image                
+        label: Guide Item 3 Image      
+      - type: string
+        name: visit-docs-section
+        label: Visit Docs Section
+      - type: string
+        name: visit-docs-section_button
+        label: Visit Docs Section Button 
+      - type: string
+        name: visit-docs-section_button_link
+        label: Visit Docs Section Button                         
   about:
     type: page
     label: About
