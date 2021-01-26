@@ -249,6 +249,7 @@ models:
   about:
     type: page
     label: About
+    urlPath: /about
     file: contents/about/content-about.md
     singleInstance: true
     fields:
