@@ -105,25 +105,11 @@ models:
             name: others_2
           - type: string
             name: others_2_link                                                                                      
-  general:
-    type: page
-    label: general
-    folder: contents/general
-    fields:
-      - type: string
-        name: title
-      - type: string
-        name: subtitle
-      - type: string
-        name: layout
-      - type: string
-        name: permalink
-      - type: string
-        name: category
   layout:
     type: page
     label: layout
     folder: collections/_layout
+    urlPath: "/docs/{slug}"
     fields:
       - type: string
         name: title
@@ -143,7 +129,7 @@ models:
         name: title
       - type: string
         name: layout  
-  post:
+  docs:
     type: page
     label: "Docs"
     folder: contents/docs
@@ -159,6 +145,21 @@ models:
       - type: string
         name: layout
         label: Layout
+  general:
+    type: page
+    label: general
+    folder: contents/general
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: subtitle
+      - type: string
+        name: layout
+      - type: string
+        name: permalink
+      - type: string
+        name: category        
   guides:
     type: page
     label: Guides
