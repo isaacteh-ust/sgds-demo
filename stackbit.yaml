@@ -116,9 +116,22 @@ models:
           - type: string
             name: name
           - type: string
+            name: value            
+          - type: string
             name: type
           - type: string
             name: state
+      - type: object
+        name: $secondary
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state            
   docs:
     type: page
     label: Docs
