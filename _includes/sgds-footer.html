@@ -32,12 +32,12 @@
           <ul>
             <li class="is-inline-block-desktop-only">
               <!--Tools questionaire-->
-              <p><a href="{{ site.contact_us }}" target="_blank">Contact</a></p>
+              <p><a href="{{ site.contact_us_link }}" target="_blank">{{ site.contact_us }}</a></p>
             </li>
             <li class="is-inline-block-desktop-only">
               <!--Feedback form-->
               <p>
-                <a href="{{ site.feedback_form }}" target="_blank">Feedback</a>
+                <a href="{{ site.feedback_form_link }}" target="_blank">{{ site.feedback_form}}</a>
               </p>
             </li>
           </ul>
@@ -51,19 +51,19 @@
         <div class="col is-12">
           <ul>
             <li>
-              <a href="{{ site.report_vulnerability }}" target="_blank"
-                >Report Vulnerability</a
+              <a href="{{ site.report_vulnerability_link }}" target="_blank"
+                >{{ site.report_vulnerability }}</a
               >
             </li>
-            <li><a href="/privacy/">Privacy</a></li>
-            <li><a href="/terms/">Terms of Use</a></li>
+            <li><a href="{{ site.privacy_link }}">{{ site.privacy }}</a></li>
+            <li><a href="{{ site.terms_link }}">{{ site.terms }}</a></li>
           </ul>
         </div>
         <div
           class="col is-12 has-text-right-desktop has-text-right-tablet has-text-left-mobile"
         >
           <p class="is-hidden-touch">
-            © {{ site.time | date: "%Y" }} Government of Singapore. Last Updated
+            © {{ site.time | date: "%Y" }} {{ site.last_updated }}
             {{site.time | date_to_string -}}
           </p>
           <p class="is-hidden-desktop">
