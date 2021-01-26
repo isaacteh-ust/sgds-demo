@@ -174,7 +174,20 @@ models:
         label: Visit Docs Section Button 
       - type: string
         name: visit-docs-section_button_link
-        label: Visit Docs Section Button                         
+        label: Visit Docs Section Button
+  docs:
+    type: page
+    label: Docs
+    folder: contents/docs/
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout
+      - type: string
+        name: permalink  
+      - type: string
+        name: redirect_from  
   about:
     type: page
     label: About
