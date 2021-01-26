@@ -163,7 +163,7 @@ models:
         name: category
   layout:
     type: page
-    label: layout
+    label: Layout
     folder: collections/_layout
     fields:
       - type: string
@@ -190,6 +190,14 @@ models:
     file: contents/guides/index.md
     singleInstance: true
     fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout        
+      - type: string
+        name: permalink
+      - type: boolean
+        name: nodropdown        
       - type: string
         name: guides_main
         label: Guides Main
