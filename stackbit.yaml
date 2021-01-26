@@ -158,7 +158,7 @@ models:
   docs:
     type: page
     label: Docs
-    folder: contents/docs
+    folder: docs
     urlPath: '/docs/{slug}'
     fields:
       - type: string
@@ -187,7 +187,7 @@ models:
   guides:
     type: page
     label: Guides
-    file: guides/index.md
+    file: guides.md
     singleInstance: true
     fields:
       - type: string
@@ -249,8 +249,7 @@ models:
   about:
     type: page
     label: About
-    urlPath: /about/
-    file: about/content-about.md
+    file: about.md
     singleInstance: true
     fields:
       - type: string
