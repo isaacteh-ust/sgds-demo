@@ -104,7 +104,21 @@ models:
           - type: string
             name: others_2
           - type: string
-            name: others_2_link                                                                                      
+            name: others_2_link      
+  docs:
+    type: page
+    label: Docs
+    folder: contents/docs
+    urlPath: "/docs/{slug}"
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout
+      - type: string
+        name: permalink  
+      - type: string
+        name: redirect_from                                                                                              
   general:
     type: page
     label: general
@@ -197,20 +211,6 @@ models:
       - type: string
         name: visit-docs-section_button_link
         label: Visit Docs Section Button
-  docs:
-    type: page
-    label: Docs
-    folder: contents/docs/
-    urlPath: "/docs/{slug}"
-    fields:
-      - type: string
-        name: title
-      - type: string
-        name: layout
-      - type: string
-        name: permalink  
-      - type: string
-        name: redirect_from  
   about:
     type: page
     label: About
