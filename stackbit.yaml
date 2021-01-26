@@ -7,40 +7,7 @@ staticDir: ''
 uploadDir: 'assets/img'
 dataDir: '_data'
 pagesDir: ''
-models:
-  navigation:
-    type: data
-    label: Navigation
-    file: navigation.yml
-    isList: true
-    items:
-      type: object
-      fields:
-        - type: string
-          name: title
-        - type: string
-          name: url
-        - type: string
-          name: target  
-        - type: list
-          name: lv2
-          items:
-            type: object
-            labelField: title
-            fields:
-              - type: string
-                name: title
-              - type: string
-                name: url
-              - type: list
-                name: lv3
-                items:
-                  type: object
-                  fields:
-                    - type: string
-                      name: title
-                    - type: string
-                      name: url     
+models:                       
   config:
     type: config
     label: Site Configuration
@@ -104,7 +71,54 @@ models:
           - type: string
             name: others_2
           - type: string
-            name: others_2_link      
+            name: others_2_link  
+  navigation:
+    type: data
+    label: Navigation
+    file: navigation.yml
+    isList: true
+    items:
+      type: object
+      fields:
+        - type: string
+          name: title
+        - type: string
+          name: url
+        - type: string
+          name: target  
+        - type: list
+          name: lv2
+          items:
+            type: object
+            labelField: title
+            fields:
+              - type: string
+                name: title
+              - type: string
+                name: url
+              - type: list
+                name: lv3
+                items:
+                  type: object
+                  fields:
+                    - type: string
+                      name: title
+                    - type: string
+                      name: url  
+  initial-variables:
+    type: data
+    label: Initial Variables
+    file: initial-variables.json
+    fields:
+      - type: object
+        name: $primary
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: type
+          - type: string
+            name: state
   docs:
     type: page
     label: Docs
