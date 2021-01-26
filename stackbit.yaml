@@ -124,6 +124,7 @@ models:
     type: page
     label: Standard
     folder: collections/_standard
+    urlPath: "/docs/{slug}"
     fields:
       - type: string
         name: title
