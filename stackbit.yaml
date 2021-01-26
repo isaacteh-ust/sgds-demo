@@ -58,9 +58,9 @@ models:
       - type: string
         name: contact_us
       - type: string
-        name: feedback_form
-      - type: string
         name: contact_us_link
+      - type: string
+        name: feedback_form        
       - type: string
         name: feedback_form_link
       - type: string
