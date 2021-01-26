@@ -153,12 +153,20 @@ models:
       - type: string
         name: title
       - type: string
-        name: layout              
+        name: layout
+  page:
+    type: page
+    label: Page
+    layout: page
+    exclude: _docs/**
+    fields:
+      - type: string
+        name: title                      
   docs:
     type: page
+    urlPath: '/docs/{slug}'
     label: Docs
     folder: docs
-    urlPath: '/docs/{slug}'
     fields:
       - type: string
         name: title
