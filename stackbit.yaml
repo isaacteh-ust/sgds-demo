@@ -65,6 +65,7 @@ models:
         name: search_placeholder
       - type: object
         name: footer
+        label: footer
         fields:
           - type: string
             name: title
