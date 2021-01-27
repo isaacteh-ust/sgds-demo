@@ -1,7 +1,7 @@
 {
     "$primary": {
         "name": "$primary",
-        "value": "#6037b3 ",
+        "value": "#89B237",
         "type": "colours",
         "state": "primary"
     },
@@ -46,7 +46,6 @@
         "value": "\"Lato\", BlinkMacSystemFont, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Helvetica\", \"Arial\", sans-serif",
         "type": "Typography"
     },
-    
     "$size-0": {
         "name": "$size-0",
         "value": "5.25rem",
@@ -85,11 +84,6 @@
     "$size-7": {
         "name": "$size-7",
         "value": "1.25rem",
-        "type": "Typography"
-    },
-    "$size-8": {
-        "name": "$size-8",
-        "value": "1rem",
         "type": "Typography"
     },
     "$size-8": {
