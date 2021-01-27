@@ -1,0 +1,389 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+ssgVersion: 3.8.4
+buildCommand: jekyll build
+publishDir: _site
+staticDir: ''
+uploadDir: 'assets/img'
+dataDir: '_data'
+pagesDir: ''
+models:                       
+  config:
+    type: config
+    label: Site Configuration
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: description
+        label: Description
+      - type: image
+        name: logo
+        label: Logo
+      - type: string
+        name: report_vulnerability
+      - type: string
+        name: contact_us
+      - type: string
+        name: contact_us_link
+      - type: string
+        name: feedback_form
+      - type: string
+        name: feedback_form_link
+      - type: string
+        name: privacy
+      - type: string
+        name: privacy_link
+      - type: string
+        name: terms
+      - type: string
+        name: terms_link
+      - type: string
+        name: last_updated                                        
+      - type: string
+        name: search_placeholder
+      - type: object
+        name: footer
+        label: Footer
+        fields:
+          - type: string
+            name: title
+          - type: string
+            name: userguides
+          - type: string
+            name: userguides_1
+          - type: string
+            name: userguides_1_link
+          - type: string
+            name: userguides_2
+          - type: string
+            name: userguides_2_link               
+          - type: string
+            name: userguides_3
+          - type: string
+            name: userguides_3_link
+          - type: string
+            name: others
+          - type: string
+            name: others_1  
+          - type: string
+            name: others_1_link
+          - type: string
+            name: others_2
+          - type: string
+            name: others_2_link  
+  navigation:
+    type: data
+    label: Navigation
+    file: navigation.yml
+    isList: true
+    items:
+      type: object
+      fields:
+        - type: string
+          name: title
+        - type: string
+          name: url
+        - type: string
+          name: target  
+        - type: list
+          name: lv2
+          items:
+            type: object
+            labelField: title
+            fields:
+              - type: string
+                name: title
+              - type: string
+                name: url
+              - type: list
+                name: lv3
+                items:
+                  type: object
+                  fields:
+                    - type: string
+                      name: title
+                    - type: string
+                      name: url            
+  initialvariables:
+    type: data
+    label: Initial Variables
+    file: initial-variables.json
+    fields:
+      - type: object
+        name: $primary
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state
+      - type: object
+        name: $secondary
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state
+      - type: object
+        name: $yellow
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state    
+      - type: object
+        name: $green
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state                       
+  patterns:
+    type: page
+    label: Layout
+    folder: collections/_patterns
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: icon
+      - type: string
+        name: layout
+      - type: string
+        name: category
+  layout:
+    type: page
+    label: Layout
+    folder: collections/_layout
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: icon
+      - type: string
+        name: layout
+      - type: string
+        name: category            
+  standard:
+    type: page
+    label: Standard
+    folder: collections/_standard
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout                     
+  docs:
+    type: page
+    label: Docs
+    folder: docs
+    urlPath: docs/{slug}
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout
+        const: layout-post
+      - type: string
+        name: permalink
+      - type: string
+        name: redirect_from
+  general:
+    type: page
+    label: General
+    layout: layout-post
+    filePath: general
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: subtitle
+      - type: string
+        name: layout
+      - type: string
+        name: permalink
+      - type: string
+        name: category
+  guides:
+    type: page
+    label: Guides
+    file: guides.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout        
+      - type: string
+        name: permalink
+      - type: boolean
+        name: nodropdown        
+      - type: string
+        name: guides_main
+        label: Guides Main
+      - type: string
+        name: guides_item_1
+        label: Guides Item 1
+      - type: string
+        name: guides_item_1_link
+        label: Guides Item 1 Link
+      - type: string
+        name: guides_item_1_description
+        label: Guide Item 1 Description
+      - type: image
+        name: guides_item_1_image
+        label: Guide Item 1 Image
+      - type: string
+        name: guides_item_2
+        label: Guides Item 2
+      - type: string
+        name: guides_item_2_link
+        label: Guides Item 2 Link
+      - type: string
+        name: guides_item_2_description
+        label: Guide Item 2 Description
+      - type: image
+        name: guides_item_2_image
+        label: Guide Item 2 Image
+      - type: string
+        name: guides_item_3
+        label: Guides Item 3
+      - type: string
+        name: guides_item_3_link
+        label: Guides Item 3 Link
+      - type: string
+        name: guides_item_3_description
+        label: Guide Item 3 Description
+      - type: image
+        name: guides_item_3_image
+        label: Guide Item 3 Image      
+      - type: string
+        name: visit-docs-section
+        label: Visit Docs Section
+      - type: string
+        name: visit-docs-section_button
+        label: Visit Docs Section Button 
+      - type: string
+        name: visit-docs-section_button_link
+        label: Visit Docs Section Button
+  about:
+    type: page
+    label: About
+    file: about.md
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: About Page.
+      - type: string
+        name: permalink
+        label: Permalink
+      - type: string
+        name: header
+        label: Header
+      - type: string
+        name: section
+        label: Section
+  home:
+    type: page
+    label: Home
+    file: index.md
+    singleInstance: true
+    urlPath: '/'
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: content_intro
+        label: Content Intro
+      - type: string
+        name: content_intro_description
+        label: Content Intro Decsription
+      - type: string
+        name: content_intro_button_link
+        labe: Content Intro Button Link
+      - type: image
+        name: content_intro_img
+        label: Content Intro Image
+      - type: image
+        name: content_component_img
+        label: Content Intro Image
+      - type: string
+        name: content_component
+        label: Content Component
+      - type: string
+        name: content_component_head
+        label: Content Component Head
+      - type: string
+        name: content_component_description
+        label: Content Component Description
+      - type: image
+        name: content_guides_img
+        label: Content Intro Image
+      - type: string
+        name: content_guides
+        label: Content Guides
+      - type: string
+        name: content_guides_head
+        label: Content Guides Head
+      - type: string
+        name: content_guides_description
+        label: Content Guides Description
+      - type: string
+        name: content_component_link
+        label: Content Component Link
+      - type: string
+        name: content_guides_link
+        label: Content Guides Link
+      - type: string
+        name: container_item_1
+      - type: string
+        name: container_item_1_1               
+      - type: string      
+        name: container_item_2
+      - type: string      
+        name: container_item_2_1               
+      - type: string
+        name: container_item_3
+      - type: string
+        name: container_item_3_1            
+      - type: string
+        name: container_item_4
+      - type: string
+        name: container_item_4_1             
+      - type: string
+        name: container_item_5
+      - type: string
+        name: container_item_5_1              
+      - type: string
+        name: container_item_6
+      - type: string
+        name: container_item_6_1
+      - type: string  
+        name: button_1
+      - type: string
+        name: button_1_link
+      - type: string
+        name: container_item_head 
+
