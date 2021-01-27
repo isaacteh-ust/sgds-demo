@@ -142,7 +142,18 @@ models:
           - type: string
             name: type
           - type: string
-            name: state            
+            name: state    
+      - type: object
+        name: $green
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state                       
   patterns:
     type: page
     label: Layout
