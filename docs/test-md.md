@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: test-md
 layout: lorem-ipsum
 permalink: /docs/test-md/
 redirect_from: lorem-ipsum
