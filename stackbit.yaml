@@ -193,11 +193,13 @@ models:
     type: page
     label: Docs
     folder: docs
+    urlPath: docs/{slug}
     fields:
       - type: string
         name: title
       - type: string
         name: layout
+        const: layout-post
       - type: string
         name: permalink
       - type: string
