@@ -4,7 +4,6 @@ layout: layout-docs
 category: layouts
 icon: container
 ---
-
 {% capture default_container_example %}
 <section class="sgds-section">
   <div class="sgds-container">
