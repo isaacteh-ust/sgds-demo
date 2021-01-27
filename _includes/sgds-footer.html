@@ -10,21 +10,21 @@
       </div>
       <div class="row">
         <div class="col is-3">
-          <p class="has-text-white"><b>User Guides</b></p>
+          <p class="has-text-white"><b>{{ site.footer.userguides }}</b></p>
           <p>
-            <a href="/docs/getting-started/">Get started with Design System</a>
+            <a href="{{ site.footer.userguides_1_link }}">{{ site.footer.userguides_1 }}</a>
           </p>
           <p>
-            <a href="https://github.com/GovTechSG/sgds/issues"
-              >Suggest a Component</a
+            <a href="{{ site.footer.userguides_2_link }}"
+              >{{ site.footer.userguides_2 }}</a
             >
           </p>
-          <p><a href="/coming-soon/">Submit a Theme</a></p>
+          <p><a href="{{ site.footer.userguides_3_link }}">{{ site.footer.userguides_3 }}</a></p>
         </div>
         <div class="col is-3">
-          <p class="has-text-white"><b>Other Sites</b></p>
-          <p><a href="https://www.developer.gov.sg">Developer Portal</a></p>
-          <p><a href="https://www.isomer.gov.sg/">Isomer</a></p>
+          <p class="has-text-white"><b>{{ site.footer.others }}</b></p>
+          <p><a href="{{ site.footer.others_1_link }}">{{ site.footer.others_1 }}</a></p>
+          <p><a href="{{ site.footer.others_2_link }}">{{ site.footer.others_2 }}</a></p>
         </div>
       </div>
       <div class="row">
@@ -32,12 +32,12 @@
           <ul>
             <li class="is-inline-block-desktop-only">
               <!--Tools questionaire-->
-              <p><a href="{{ site.contact_us }}" target="_blank">Contact</a></p>
+              <p><a href="{{ site.contact_us_link }}" target="_blank">{{ site.contact_us }}</a></p>
             </li>
             <li class="is-inline-block-desktop-only">
               <!--Feedback form-->
               <p>
-                <a href="{{ site.feedback_form }}" target="_blank">Feedback</a>
+                <a href="{{ site.feedback_form_link }}" target="_blank">{{ site.feedback_form}}</a>
               </p>
             </li>
           </ul>
@@ -51,19 +51,19 @@
         <div class="col is-12">
           <ul>
             <li>
-              <a href="{{ site.report_vulnerability }}" target="_blank"
-                >Report Vulnerability</a
+              <a href="{{ site.report_vulnerability_link }}" target="_blank"
+                >{{ site.report_vulnerability }}</a
               >
             </li>
-            <li><a href="/privacy/">Privacy</a></li>
-            <li><a href="/terms/">Terms of Use</a></li>
+            <li><a href="{{ site.privacy_link }}">{{ site.privacy }}</a></li>
+            <li><a href="{{ site.terms_link }}">{{ site.terms }}</a></li>
           </ul>
         </div>
         <div
           class="col is-12 has-text-right-desktop has-text-right-tablet has-text-left-mobile"
         >
           <p class="is-hidden-touch">
-            © {{ site.time | date: "%Y" }} Government of Singapore. Last Updated
+            © {{ site.time | date: "%Y" }} {{ site.last_updated }}
             {{site.time | date_to_string -}}
           </p>
           <p class="is-hidden-desktop">
