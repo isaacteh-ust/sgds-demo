@@ -184,6 +184,7 @@ models:
   general:
     type: page
     label: general
+    layout: layout-post
     urlPath: '/{slug}'
     folder: general
     fields:
