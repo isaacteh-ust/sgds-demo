@@ -4,7 +4,6 @@ subtitle: Subtitle
 layout: layout-post
 permalink: /faq/
 category: General/FAQs
-published: no
 ---
 
 ##### What is Design System?
