@@ -132,6 +132,17 @@ models:
             name: type
           - type: string
             name: state
+      - type: object
+        name: $yellow
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state            
   patterns:
     type: page
     label: Layout
