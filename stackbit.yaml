@@ -183,7 +183,7 @@ models:
         name: redirect_from
   general:
     type: page
-    label: general
+    label: General
     layout: layout-post
     urlPath: '/{slug}'
     folder: general
