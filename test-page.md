@@ -2,7 +2,7 @@
 title: lorem-ipsum
 subtitle: lorem-ipsum
 layout: lorem-ipsum
-permalink: lorem-ipsum
+permalink: test-apge
 category: lorem-ipsum
 ---
 ## Lorem ipsum
