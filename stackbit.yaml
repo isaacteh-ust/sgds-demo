@@ -104,9 +104,72 @@ models:
                     - type: string
                       name: title
                     - type: string
-                      name: url                              
+                      name: url            
+  initialvariables:
+    type: data
+    label: Initial Variables
+    file: initial-variables.json
+    fields:
+      - type: object
+        name: $primary
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state
+      - type: object
+        name: $secondary
+        fields:
+          - type: string
+            name: name
+          - type: string
+            name: value            
+          - type: string
+            name: type
+          - type: string
+            name: state
+  patterns:
+    type: page
+    label: Layout
+    folder: collections/_patterns
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: icon
+      - type: string
+        name: layout
+      - type: string
+        name: category
+  layout:
+    type: page
+    label: Layout
+    folder: collections/_layout
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: icon
+      - type: string
+        name: layout
+      - type: string
+        name: category            
+  standard:
+    type: page
+    label: Standard
+    folder: collections/_standard
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout                     
   docs:
     type: page
+    urlPath: '/docs/{slug}'
     label: Docs
     folder: docs
     fields:
@@ -122,7 +185,7 @@ models:
     type: page
     label: General
     layout: layout-post
-    folder: general
+    filePath: general
     fields:
       - type: string
         name: title
