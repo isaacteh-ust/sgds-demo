@@ -185,8 +185,7 @@ models:
     type: page
     label: General
     layout: layout-post
-    filePath: general/{slug}.md
-    urlPath: /general/{slug}
+    filePath: general
     fields:
       - type: string
         name: title
