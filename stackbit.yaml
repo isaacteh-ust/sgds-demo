@@ -185,7 +185,8 @@ models:
     type: page
     label: General
     layout: layout-post
-    file: faq.md
+    filePath: general/{slug}.md
+    urlPath: /general/{slug}
     fields:
       - type: string
         name: title
