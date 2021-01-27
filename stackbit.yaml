@@ -169,7 +169,6 @@ models:
         name: layout                     
   docs:
     type: page
-    urlPath: '/docs/{slug}'
     label: Docs
     folder: docs
     fields:
