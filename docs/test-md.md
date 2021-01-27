@@ -1,7 +1,7 @@
 ---
 title: lorem-ipsum
 layout: lorem-ipsum
-permalink: test-md
+permalink: /test-md/
 redirect_from: lorem-ipsum
 ---
 ## Lorem ipsum
