@@ -1,6 +1,7 @@
 ---
 title: Address
 layout: layout-docs
+permalink: /patterns/address/
 ---
 Collecting addresses
 --------------------
