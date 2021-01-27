@@ -156,7 +156,7 @@ models:
             name: state                       
   patterns:
     type: page
-    label: Layout
+    label: Patterns
     folder: collections/_patterns
     fields:
       - type: string
@@ -198,7 +198,6 @@ models:
         name: title
       - type: string
         name: layout
-        const: layout-post
       - type: string
         name: permalink
       - type: string
