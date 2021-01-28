@@ -2,7 +2,7 @@ title: Singapore Government Design System
 description: >-
   Design System unites Singapore Government digital services around a common
   visual language  and user experience
-logo: /assets/img/logo_sgds.png
+logo: assets/img/ust.png
 sgds-version: 1.3.17
 report_vulnerability: Report Vulnerability
 report_vulnerability_link: 'https://tech.gov.sg/report_vulnerability'
@@ -22,14 +22,14 @@ footer:
   userguides_1: Get started with Design System
   userguides_1_link: /docs/getting-started/
   userguides_2: Suggest a Component
-  userguides_2_link: https://github.com/GovTechSG/sgds/issues
+  userguides_2_link: 'https://github.com/GovTechSG/sgds/issues'
   userguides_3: Submit a Theme
   userguides_3_link: /coming-soon/
   others: Other Sites
   others_1: Developer Portal
-  others_1_link: https://www.developer.gov.sg
+  others_1_link: 'https://www.developer.gov.sg'
   others_2: Isomer
-  others_2_link: https://www.isomer.gov.sg/
+  others_2_link: 'https://www.isomer.gov.sg/'
 plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
