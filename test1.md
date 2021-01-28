@@ -6,7 +6,7 @@ category: lorem-ipsum
 permalink: /test1
 redirect_from: ''
 ---
-## Lorem ipsum
+## DEMO Subtitle
 
 Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
