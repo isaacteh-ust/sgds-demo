@@ -141,8 +141,14 @@ models:
     fields:
       - type: string
         name: title
+        label: Title
+        required: true
       - type: string
         name: layout
+        label: Docs Layout
+        const: layout-docs
+        required: true
+        hidden: true
   form:
     type: page
     label: Form
