@@ -184,11 +184,15 @@ models:
         name: category                                              
   docs:
     type: page
+    urlPath: '/docs/{slug}'
     label: Docs
+    layout: layout-docs
     folder: contents/docs
     fields:
       - type: string
         name: title
+        label: Title
+        required: true
       - type: string
         name: layout
       - type: string
