@@ -1,6 +1,6 @@
 ---
 title: lorem-ipsum
-permalink: /docs/test
+permalink: /test
 layout: docs
 redirect_from: lorem-ipsum
 ---
