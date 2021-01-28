@@ -320,7 +320,7 @@ models:
         label: Content Intro Decsription
       - type: string
         name: content_intro_button_link
-        labe: Content Intro Button Link
+        label: Content Intro Button Link
       - type: image
         name: content_intro_img
         label: Content Intro Image
