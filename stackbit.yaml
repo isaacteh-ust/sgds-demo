@@ -105,55 +105,6 @@ models:
                       name: title
                     - type: string
                       name: url            
-  initialvariables:
-    type: data
-    label: Initial Variables
-    file: initial-variables.json
-    fields:
-      - type: object
-        name: $primary
-        fields:
-          - type: string
-            name: name
-          - type: string
-            name: value            
-          - type: string
-            name: type
-          - type: string
-            name: state
-      - type: object
-        name: $secondary
-        fields:
-          - type: string
-            name: name
-          - type: string
-            name: value            
-          - type: string
-            name: type
-          - type: string
-            name: state
-      - type: object
-        name: $yellow
-        fields:
-          - type: string
-            name: name
-          - type: string
-            name: value            
-          - type: string
-            name: type
-          - type: string
-            name: state    
-      - type: object
-        name: $green
-        fields:
-          - type: string
-            name: name
-          - type: string
-            name: value            
-          - type: string
-            name: type
-          - type: string
-            name: state                       
   patterns:
     type: page
     label: Patterns
