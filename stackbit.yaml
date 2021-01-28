@@ -335,4 +335,22 @@ models:
         name: button_1_link
       - type: string
         name: container_item_head 
+      - type: string
+        name: section_title
+      - type: string
+        name: section_img
+      - type: string
+        name: section_subtitle
+      - type: string
+        name: section_body
+      - type: string
+        name: section_1
+      - type: string
+        name: section_1_link
+      - type: string
+        name: section_1_button
+      - type: string
+        name: section_2
+      - type: string
+        name: section_2_button                        
 
