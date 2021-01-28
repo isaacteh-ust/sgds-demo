@@ -20,6 +20,9 @@ models:
       - type: image
         name: logo
         label: Logo
+      - type: image
+        name: nav_logo
+        label: Nav Logo        
       - type: string
         name: report_vulnerability
       - type: string
