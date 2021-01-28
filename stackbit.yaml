@@ -204,6 +204,7 @@ models:
         name: redirect_from
   general:
     type: page
+    urlPath: '/contents/general/{slug}'
     label: General
     folder: contents/general
     fields:
