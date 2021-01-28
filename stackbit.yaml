@@ -219,6 +219,10 @@ models:
         hidden: true        
       - type: string
         name: category
+      - type: string
+        name: permalink
+      - type: string
+        name: redirect_from    
   guides:
     type: page
     label: Guides
