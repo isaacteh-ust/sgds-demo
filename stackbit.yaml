@@ -205,7 +205,6 @@ models:
   general:
     type: page
     label: General
-    layout: layout-post
     folder: contents/general
     fields:
       - type: string
