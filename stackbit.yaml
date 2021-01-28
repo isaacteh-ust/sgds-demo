@@ -193,6 +193,11 @@ models:
         label: Title
         required: true
       - type: string
+        name: permalink
+        label: Page Permalink
+        required: true
+        default: /test    
+      - type: string
         name: layout
       - type: string
         name: redirect_from
