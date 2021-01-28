@@ -4,7 +4,7 @@ subtitle: lorem-ipsum
 layout: layout-post
 category: lorem-ipsum
 permalink: /test1
-redirect_from: lorem-ipsum
+redirect_from: ''
 ---
 ## Lorem ipsum
 
