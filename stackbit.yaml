@@ -214,6 +214,10 @@ models:
         name: subtitle
       - type: string
         name: layout
+        label: general layout
+        const: layout-post
+        required: true
+        hidden: true        
       - type: string
         name: category
   guides:
