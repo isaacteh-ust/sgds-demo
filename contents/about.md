@@ -2,6 +2,8 @@
 layout: layout-about
 title: About
 permalink: /about/
+redirect_from:
+    - /contents/about
 ---
 Background
 ----------
