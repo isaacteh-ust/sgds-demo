@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: ''
 subtitle: lorem-ipsum
 layout: layout-post
 category: lorem-ipsum
