@@ -5,6 +5,9 @@ category: Standard
 icon: sidenav
 js: true
 order: 3
+permalink: /docs/side-nav
+redirect_from:
+    - /collections/_standard/side-nav
 ---
 {% capture lvl2_sidenav %}
 <aside class="sgds-menu">
