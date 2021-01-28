@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: DESIGN SYSTEM
 layout: layout-docs
 ---
 #### DESIGN SYSTEM
