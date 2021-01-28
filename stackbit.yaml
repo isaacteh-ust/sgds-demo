@@ -162,7 +162,7 @@ models:
         name: layout 
       - type: string
         name: permalink         
-  general-collection:
+  generalcollection:
     type: page
     label: Collection General
     folder: collections/_general
@@ -173,7 +173,7 @@ models:
         name: layout 
       - type: string
         name: category 
-  guides-collection:
+  guidescollection:
     type: page
     label: Collection Guides
     folder: collections/_guides
