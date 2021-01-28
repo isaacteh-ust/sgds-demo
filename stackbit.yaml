@@ -151,6 +151,17 @@ models:
         name: layout 
       - type: string
         name: order 
+  helpers:
+    type: page
+    label: Helpers
+    folder: collections/_helpes
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout 
+      - type: string
+        name: permalink         
   general-collection:
     type: page
     label: Collection General
