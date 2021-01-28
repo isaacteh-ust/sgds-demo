@@ -19,4 +19,6 @@ guides_item_3_image: /assets/img/img_writing1.png
 visit-docs-section: Looking for components documentation? 
 visit-docs-section_button: Visit components
 visit-docs-section_button_link: /docs/
+redirect_from:
+    - /contents/guides
 ---

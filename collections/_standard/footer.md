@@ -4,6 +4,9 @@ layout: layout-docs
 category: Standard
 icon: footer
 order: 4
+permalink: /docs/footer
+redirect_from:
+    - /collections/_standard/footer
 ---
 {% capture default_footer %}
 <footer class='sgds-footer'>

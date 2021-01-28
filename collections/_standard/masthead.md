@@ -4,6 +4,9 @@ layout: layout-docs
 category: Standard
 icon: masthead
 order: 1
+permalink: /docs/masthead
+redirect_from:
+    - /collections/_standard/masthead
 ---
 
 {% capture default_masthead %}

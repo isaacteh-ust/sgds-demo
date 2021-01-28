@@ -3,6 +3,8 @@ title: Coming Soon
 layout: layout-post
 permalink: /coming-soon/
 breadcrumb: Discuss
+redirect_from:
+    - /contents/general/content-coming-soon
 ---
 
 ![](/assets/img/img_construction.png)

@@ -39,4 +39,23 @@ container_item_6_1: >-
   href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG</a>
 button_1: Learn more about SGDS
 button_1_link: /about/
+section_title: Be Part of the Change
+section_img: /assets/img/img_change.png
+section_subtitle: >-
+                        SGDS is
+                        <a
+                            href="https://github.com/govtechsg/sgds"
+                            class="has-text-white"
+                            style="text-decoration: underline"
+                            >open source.</a
+                        >
+section_body: >-
+    If you are a developer, designer or content writer, you can help us
+                        transform the Singapore Government's digital services. Let's build a
+                        trusted, ever-evolving ecosystem together.
+section_1: Have questions or<br>can't find what you're looking for?
+section_1_link: https://github.com/govtechsg/sgds/issues
+section_1_button: Ask us on GitHub
+section_2: Join us on Telegram.<br>Send us your Telegram handler via the feedback form
+section_2_button: Feedback
 ---

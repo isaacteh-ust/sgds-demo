@@ -5,6 +5,8 @@ layout: layout-post
 permalink: /faq/
 category: General/FAQs
 published: no
+redirect_from:
+    - /contents/general/content-faq
 ---
 
 ##### What is Design System?

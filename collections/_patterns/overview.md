@@ -1,8 +1,10 @@
 ---
 title: Overview
 layout: layout-sidenav
+permalink: /patterns/overview
 redirect_from:
     - /patterns/
+    - /collections/_patterns/overview
 ---
 
 Over here, you can easily find common patterns to start building your site.

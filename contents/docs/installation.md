@@ -2,6 +2,8 @@
 title: Installation
 layout: layout-sidenav
 permalink: /docs/installation/
+redirect_from:
+    - /contents/docs/installation
 ---
 Installing SGDS
 ---------------

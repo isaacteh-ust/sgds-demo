@@ -3,6 +3,9 @@ title: Container
 layout: layout-docs
 category: layouts
 icon: container
+permalink: /docs/container/
+redirect_from:
+    - /collections/_layout/container
 ---
 
 {% capture default_container_example %}

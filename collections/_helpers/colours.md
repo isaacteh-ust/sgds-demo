@@ -43,6 +43,9 @@ coloursList:
     hex: '#d0021b'
     contrast: 5.67
 
+permalink: /docs/colours
+redirect_from:
+    - /contents/_helpers/colours
 ---
 
 <h2>SGDS Colour classes</h2>

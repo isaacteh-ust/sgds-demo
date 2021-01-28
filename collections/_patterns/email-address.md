@@ -1,6 +1,9 @@
 ---
 title: Email Address
 layout: layout-docs
+permalink: /patterns/email-address
+redirect_from:
+    - /collections/_patterns/email-address
 ---
 Email address input
 -------------------

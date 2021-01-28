@@ -3,6 +3,9 @@ title: Responsiveness
 layout: layout-docs
 category: layouts
 icon: container
+permalink: /docs/responsiveness/
+redirect_from:
+    - /collections/_layout/responsiveness
 ---
 
 {% capture is-mobile-example %}

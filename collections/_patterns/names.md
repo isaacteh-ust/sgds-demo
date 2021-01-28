@@ -1,6 +1,9 @@
 ---
 title: Names
 layout: layout-docs
+permalink: /patterns/names
+redirect_from:
+    - /collections/_patterns/names
 ---
 {% capture general_name_field %}
 <div class="field">

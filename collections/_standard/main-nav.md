@@ -5,6 +5,9 @@ category: Standard
 icon: mainnav
 js: true
 order: 2
+permalink: /docs/main-nav
+redirect_from:
+    - /collections/_standard/main-nav
 ---
 
 {% capture default_navbar_example %}

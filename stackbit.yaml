@@ -105,55 +105,6 @@ models:
                       name: title
                     - type: string
                       name: url            
-  initialvariables:
-    type: data
-    label: Initial Variables
-    file: initial-variables.json
-    fields:
-      - type: object
-        name: $primary
-        fields:
-          - type: string
-            name: name
-          - type: string
-            name: value            
-          - type: string
-            name: type
-          - type: string
-            name: state
-      - type: object
-        name: $secondary
-        fields:
-          - type: string
-            name: name
-          - type: string
-            name: value            
-          - type: string
-            name: type
-          - type: string
-            name: state
-      - type: object
-        name: $yellow
-        fields:
-          - type: string
-            name: name
-          - type: string
-            name: value            
-          - type: string
-            name: type
-          - type: string
-            name: state    
-      - type: object
-        name: $green
-        fields:
-          - type: string
-            name: name
-          - type: string
-            name: value            
-          - type: string
-            name: type
-          - type: string
-            name: state                       
   patterns:
     type: page
     label: Patterns
@@ -188,7 +139,51 @@ models:
       - type: string
         name: title
       - type: string
-        name: layout                     
+        name: layout
+  form:
+    type: page
+    label: Form
+    folder: collections/_form
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout 
+      - type: string
+        name: order 
+  helpers:
+    type: page
+    label: Helpers
+    folder: collections/_helpes
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout 
+      - type: string
+        name: permalink         
+  generalcollection:
+    type: page
+    label: Collection General
+    folder: collections/_general
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout 
+      - type: string
+        name: category 
+  guidescollection:
+    type: page
+    label: Collection Guides
+    folder: collections/_guides
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout 
+      - type: string
+        name: category                                              
   docs:
     type: page
     label: Docs
@@ -320,7 +315,7 @@ models:
         label: Content Intro Decsription
       - type: string
         name: content_intro_button_link
-        labe: Content Intro Button Link
+        label: Content Intro Button Link
       - type: image
         name: content_intro_img
         label: Content Intro Image
@@ -384,4 +379,22 @@ models:
         name: button_1_link
       - type: string
         name: container_item_head 
+      - type: string
+        name: section_title
+      - type: string
+        name: section_img
+      - type: string
+        name: section_subtitle
+      - type: string
+        name: section_body
+      - type: string
+        name: section_1
+      - type: string
+        name: section_1_link
+      - type: string
+        name: section_1_button
+      - type: string
+        name: section_2
+      - type: string
+        name: section_2_button                        
 
