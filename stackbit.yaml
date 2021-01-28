@@ -194,6 +194,8 @@ models:
         required: true
       - type: string
         name: permalink
+        required: true
+        default: /docs/{slug}
       - type: string
         name: layout
         label: Docs Layout
