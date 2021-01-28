@@ -214,7 +214,7 @@ models:
       - type: string
         name: layout
         label: general layout
-        const: post
+        const: layout-post
         required: true
         hidden: true        
       - type: string
