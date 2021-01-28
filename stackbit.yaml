@@ -195,7 +195,7 @@ models:
       - type: string
         name: permalink
       - type: string
-        name: layout
+        name: layout-sidenav
         label: Docs Layout
         const: docs
         required: true
