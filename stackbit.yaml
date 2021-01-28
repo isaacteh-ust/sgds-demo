@@ -159,9 +159,7 @@ models:
       - type: string
         name: title
       - type: string
-        name: layout 
-      - type: string
-        name: permalink         
+        name: layout       
   generalcollection:
     type: page
     label: Collection General
@@ -194,8 +192,6 @@ models:
       - type: string
         name: layout
       - type: string
-        name: permalink
-      - type: string
         name: redirect_from
   general:
     type: page
@@ -209,8 +205,6 @@ models:
         name: subtitle
       - type: string
         name: layout
-      - type: string
-        name: permalink
       - type: string
         name: category
   guides:
