@@ -1,7 +1,9 @@
 ---
 title: Address
 layout: layout-docs
-
+permalink: /patterns/address
+redirect_from:
+    - /collections/_patterns/address
 ---
 Collecting addresses
 --------------------

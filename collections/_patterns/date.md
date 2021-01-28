@@ -1,6 +1,9 @@
 ---
 title: Date
 layout: layout-docs
+permalink: /patterns/date
+redirect_from:
+    - /collections/_patterns/date
 ---
 Date input
 ----------

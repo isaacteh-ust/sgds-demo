@@ -1,6 +1,9 @@
 ---
 title: Display
 layout: layout-docs
+permalink: /docs/display
+redirect_from:
+    - /contents/_helpers/display
 ---
 
 <h2>Overview</h2>
