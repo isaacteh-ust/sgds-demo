@@ -3,7 +3,7 @@ title: lorem-ipsum
 subtitle: lorem-ipsum
 layout: layout-post
 category: lorem-ipsum
-permalink: lorem-ipsum
+permalink: /test1
 redirect_from: lorem-ipsum
 ---
 ## Lorem ipsum
