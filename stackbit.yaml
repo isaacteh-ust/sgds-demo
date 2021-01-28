@@ -139,7 +139,40 @@ models:
       - type: string
         name: title
       - type: string
-        name: layout                     
+        name: layout
+  form:
+    type: page
+    label: Form
+    folder: collections/_form
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout 
+      - type: string
+        name: order 
+  general-collection:
+    type: page
+    label: Collection General
+    folder: collections/_general
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout 
+      - type: string
+        name: category 
+  guides-collection:
+    type: page
+    label: Collection Guides
+    folder: collections/_guides
+    fields:
+      - type: string
+        name: title
+      - type: string
+        name: layout 
+      - type: string
+        name: category                                              
   docs:
     type: page
     label: Docs
