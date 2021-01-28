@@ -1,7 +1,7 @@
 ---
 title: lorem-ipsum
 permalink: /test
-layout: lorem-ipsum
+layout: layout-sidenav
 redirect_from: lorem-ipsum
 ---
 ## Lorem ipsum
