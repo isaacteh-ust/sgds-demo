@@ -71,7 +71,7 @@ models:
           - type: string
             name: others_2
           - type: string
-            name: others_2_link  
+            name: others_2_link     
   navigation:
     type: data
     label: Navigation
@@ -104,7 +104,7 @@ models:
                     - type: string
                       name: title
                     - type: string
-                      name: url            
+                      name: url                                
   patterns:
     type: page
     label: Patterns
@@ -217,8 +217,6 @@ models:
         name: title
       - type: string
         name: layout        
-      - type: string
-        name: permalink
       - type: boolean
         name: nodropdown        
       - type: string
@@ -279,9 +277,6 @@ models:
         name: title
         label: Title
         description: About Page.
-      - type: string
-        name: permalink
-        label: Permalink
       - type: string
         name: header
         label: Header
