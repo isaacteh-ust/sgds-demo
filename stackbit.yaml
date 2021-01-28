@@ -184,7 +184,7 @@ models:
         name: category                                              
   docs:
     type: page
-    urlPath: '/docs/{slug}'
+    urlPath: '/contents/docs/{slug}'
     label: Docs
     folder: contents/docs
     fields:
