@@ -186,7 +186,7 @@ models:
     type: page
     urlPath: '/docs/{slug}'
     label: Docs
-    layout: layout-docs
+    layout: docs
     folder: contents/docs
     fields:
       - type: string
