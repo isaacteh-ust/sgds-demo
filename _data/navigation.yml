@@ -34,6 +34,6 @@
   url: 'https://customiser.designsystem.gov.sg'
   target: _blank
 - title: TestPAGE
-  url: lorem-ipsum
+  url: /docs/
   target: lorem-ipsum
   lv2: []
