@@ -1,6 +1,6 @@
 ---
 title: DEMO1
-subtitle: lorem-ipsum
+subtitle: DEMO Subtitle
 layout: layout-post
 category: lorem-ipsum
 permalink: /test1
