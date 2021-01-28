@@ -4,6 +4,8 @@ subtitle: Subtitle
 layout: layout-post
 permalink: /terms/
 category: General/Terms of Use
+redirect_from:
+    - /contents/general/content-terms
 ---
 General
 -------

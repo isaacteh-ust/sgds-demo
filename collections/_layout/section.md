@@ -3,6 +3,9 @@ title: Section
 layout: layout-docs
 category: layouts
 icon: section
+permalink: /docs/section
+redirect_from:
+    - /collections/_layout/section
 ---
 
 {% capture default_section_example %}

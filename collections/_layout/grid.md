@@ -3,6 +3,9 @@ title: Grid
 layout: layout-docs
 category: layouts
 icon: grid
+permalink: /docs/grid/
+redirect_from:
+    - /collections/_layout/grid
 ---
 {% capture default_grid_example %}
 <section class="sgds-section">
