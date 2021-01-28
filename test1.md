@@ -4,7 +4,7 @@ subtitle: DEMO Subtitle
 layout: layout-post
 category: lorem-ipsum
 permalink: /test1
-redirect_from: /test1
+redirect_from: loremipsum
 ---
 ## DEMO Subtitle
 
